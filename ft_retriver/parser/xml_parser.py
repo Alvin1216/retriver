@@ -192,5 +192,5 @@ def load_from_api():
                 print('關鍵字存在於摘要中的第:'+ str(located[j]) + '個字元之間')
 
 
-load_from_api()
+#load_from_api()
 

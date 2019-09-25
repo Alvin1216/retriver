@@ -1,3 +1,4 @@
+import ft_retriver.views as ft_retriver_view
 """retriver URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,4 +19,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hello/', ft_retriver_view.hello),
 ]
