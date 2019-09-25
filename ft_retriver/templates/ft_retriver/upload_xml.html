@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'ft_retriver/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="card" style="margin-bottom: 10px;">
+        <div class="card-header">
+            Upload file to parse
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Select your Pubmed XML file</h5>
+            <div class="custom-file">
+                <form enctype="multipart/form-data" action="../uploadfile/" method="POST">
+                    {% csrf_token %}
+                    <input type="file" name="myfile"/>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

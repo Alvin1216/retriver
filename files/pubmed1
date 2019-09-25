@@ -1,0 +1,117 @@
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">31528139</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1524-5012</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>19</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Season>Fall</Season>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Ochsner journal</Title>
+                <ISOAbbreviation>Ochsner J</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fever and Leg Pain: Consider ALL the Diagnoses.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>260-263</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.31486/toj.18.0122</ELocationID>
+            <Abstract>
+                <AbstractText><b>Background:</b> Acute lymphoblastic leukemia (ALL) is the most common childhood cancer diagnosed in the United States. The disease causes a decrease in hematopoiesis, so children often present with symptoms related to anemia, thrombocytopenia, and leukopenia. Symptoms for this malignancy may have significant overlap with other conditions such as osteomyelitis. <b>Case Report:</b> A 2-year-old male with no significant medical history presented with lower extremity pain and fever. Initial investigations, including imaging and complete blood count, led physicians to diagnose bilateral osteomyelitis. The patient was prescribed a course of antibiotics; however, his symptoms returned. Eventually, a bone marrow aspiration showed CD99 membrane-positive small round blue cell tumors. The patient was diagnosed with ALL. He was successfully treated with chemotherapy and is now in remission. <b>Conclusion:</b> This case demonstrates the importance of a broad differential diagnosis for a child presenting with leg pain and fever.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Desmond</LastName>
+                    <ForeName>Lesley N</ForeName>
+                    <Initials>LN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The University of Queensland Faculty of Medicine, Ochsner Clinical School, New Orleans, LA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fletcher</LastName>
+                    <ForeName>Matthew B</ForeName>
+                    <Initials>MB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Ochsner Clinic Foundation, New Orleans, LA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Warrier</LastName>
+                    <ForeName>Rajasekharan P</ForeName>
+                    <Initials>RP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The University of Queensland Faculty of Medicine, Ochsner Clinical School, New Orleans, LA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Ochsner Clinic Foundation, New Orleans, LA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D002363">Case Reports</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Ochsner J</MedlineTA>
+            <NlmUniqueID>101125795</NlmUniqueID>
+            <ISSNLinking>1524-5012</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Anemia</Keyword>
+            <Keyword MajorTopicYN="N">bone marrow</Keyword>
+            <Keyword MajorTopicYN="N">chemotherapy</Keyword>
+            <Keyword MajorTopicYN="N">erythrocyte sedimentation rate</Keyword>
+            <Keyword MajorTopicYN="N">fever</Keyword>
+            <Keyword MajorTopicYN="N">leukocyte counts</Keyword>
+            <Keyword MajorTopicYN="N">leukopenia</Keyword>
+            <Keyword MajorTopicYN="N">osteomyelitis</Keyword>
+            <Keyword MajorTopicYN="N">precursor B-cell lymphoblastic leukemia-lymphoma</Keyword>
+            <Keyword MajorTopicYN="N">thrombocytopenia</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31528139</ArticleId>
+            <ArticleId IdType="doi">10.31486/toj.18.0122</ArticleId>
+            <ArticleId IdType="pii">toj.18.0122</ArticleId>
+            <ArticleId IdType="pmc">PMC6735594</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+

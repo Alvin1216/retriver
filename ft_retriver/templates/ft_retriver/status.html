@@ -1,0 +1,14 @@
+{% extends 'ft_retriver/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">{{status}}</h1>
+            <p class="lead">{{information}}</p>
+            <a href={{ url }} class="btn btn-primary">{{button_content}}</a>
+        </div>
+    </div>
+</main>
+{% endblock %}

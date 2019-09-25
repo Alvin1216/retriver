@@ -1,0 +1,30 @@
+{% extends 'ft_retriver/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<main role="main" class="container">
+    <div class="alert alert-light" role="alert">
+        檔案中一共有 {{numbers}} 篇含有標題與摘要的文章'
+    </div>
+    {% for as in artical_set%}
+    <div class="card" style="margin-bottom: 10px;">
+        <h5 class="card-header">{% autoescape off %} {{as.title}} {% endautoescape %}</h5>
+        <div class="card-body">
+            <!--<h5 class="card-title">Special title treatment</h5>-->
+            <p>{% autoescape off %} {{as.content}} {% endautoescape %}</p>
+
+            <div class="alert alert-primary" role="alert">
+                這篇摘要有 <span style="color:red;">{{as.character_content}}</span> 個字元
+            </div>
+            <div class="alert alert-primary" role="alert">
+                這篇摘要有 {{as.word_content}} 個詞
+            </div>
+            <div class="alert alert-primary" role="alert">
+                這篇摘要有 {{as.sentence_content}} 個句子
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</main>
+{% endblock %}
