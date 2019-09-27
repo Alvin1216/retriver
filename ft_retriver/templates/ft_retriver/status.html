@@ -7,7 +7,7 @@
         <div class="container">
             <h1 class="display-4"><span>&#128077;</span> {{status}}</h1>
             <!--<p class="lead"><span>&#128079;</span> {{information}}</p>-->
-            {% if status == 'SUCCESSFUL!' %}
+            {% if display_input == 1 %}
             <!--<p class="lead"><span>&#128073;</span> File name: {{file_name}}</p>-->
             <form method="POST" action={{url}}>
                 {% csrf_token %}
