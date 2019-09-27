@@ -5,23 +5,32 @@
 
 <main role="main" class="container">
     <div class="alert alert-light" role="alert">
-        檔案中一共有 {{numbers}} 篇含有標題與摘要的文章'
+        <h2> <span>&#128079;</span> 你想找的關鍵字：{{keyword}}</h2>
+    </div>
+    <div class="alert alert-light" role="alert">
+        <span>&#128073;</span> 檔案 {{file_name}} 中一共有 {{numbers}} 篇含有標題與摘要的文章'
     </div>
     {% for as in artical_set%}
     <div class="card" style="margin-bottom: 10px;">
-        <h5 class="card-header">{% autoescape off %} {{as.title}} {% endautoescape %}</h5>
+        <h5 class="card-header"><b>{% autoescape off %} {{as.title}} {% endautoescape %}</b></h5>
         <div class="card-body">
             <!--<h5 class="card-title">Special title treatment</h5>-->
             <p>{% autoescape off %} {{as.content}} {% endautoescape %}</p>
 
             <div class="alert alert-primary" role="alert">
-                這篇摘要有 <span style="color:red;">{{as.character_content}}</span> 個字元
+                <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.character_content}}</span> 個字元
             </div>
             <div class="alert alert-primary" role="alert">
-                這篇摘要有 {{as.word_content}} 個詞
+                <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.word_content}}</span> 個詞
             </div>
             <div class="alert alert-primary" role="alert">
-                這篇摘要有 {{as.sentence_content}} 個句子
+                <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.sentence_content}} </span>個句子
+            </div>
+            <div class="alert alert-primary" role="alert">
+                <span>&#128073;</span> 這篇標題有中 <span style="color:red;">{{as.keyword_title_hit}} </span>個關鍵字
+            </div>
+            <div class="alert alert-primary" role="alert">
+                <span>&#128073;</span> 這篇摘要有中 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字
             </div>
         </div>
     </div>

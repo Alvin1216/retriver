@@ -1,8 +1,8 @@
 import os, re
-from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render, redirect
-from .forms import UploadFileForm
 from ft_retriver.parser import xml_parser as ps
+from pathlib import Path
+from django.template import loader
 
 
 def hello(request):
@@ -39,6 +39,7 @@ def upload_file(request):
             information = 'Your file had been uploaded!'
             url = '#'
             button_content = 'RESULT'
+            #return render(request, "ft_retriver/status.html", deal_failed())
             return render(request, "ft_retriver/status.html", locals())
 
 
@@ -47,35 +48,60 @@ def mark_string(original_string, keyword):
     original_string = original_string.replace(keyword, replacement)
     return original_string
 
+
+def check_file_exist(path):
+    file = Path(path)
+    if file.is_file():
+        return True
+    else:
+        return False
+
+
+def deal_failed():
+    load_data = {'status': 'FAILED!', 'information': 'Your file not exist', 'url':'.../hello',
+                 'button_content': 'BACK'}
+    return load_data
+
+
 def xml_deal(request):
+    file_name = 'pubmed_fever_100.xml'
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(BASE_DIR, "files\pubmed_fever_100.xml")
-    # print(BASE_DIR)
-    # print(path)
+    path = os.path.join(BASE_DIR, "files/" + file_name)
     keyword = 'fever'
-    artical_set = []
-    title = []
-    content = []
-    title, content = ps.parse_xml_abstract_title(path)
-    numbers = len(title)
-    # print(title[0])
-    for i in range(0, numbers):
-        print(i)
-        artical = {}
+    upload_file_type = 'xml'
+    print(check_file_exist(path))
+    print(path)
 
-        artical['character_content'] = ps.count_character(content[i])
-        artical['word_content'] = ps.count_words(content[i])
-        artical['sentence_content'] = ps.count_sentence(content[i])
+    if not check_file_exist(path):
+        return render(request, "ft_retriver/status.html", deal_failed())
+    else:
+        artical_set = []
+        title = []
+        content = []
+        title, content = ps.parse_xml_abstract_title(path)
+        numbers = len(title)
 
-        artical['status_title'], artical['located_title'] = ps.located_keyword(keyword, title[i])
-        artical['status_content'], artical['located_content'] = ps.located_keyword(keyword, content[i])
+        for i in range(0, numbers):
+            print(i)
+            artical = {}
 
-        artical['title'] = mark_string(title[i], keyword)
-        artical['content'] = mark_string(content[i], keyword)
+            artical['character_content'] = ps.count_character(content[i])
+            artical['word_content'] = ps.count_words(content[i])
+            artical['sentence_content'] = ps.count_sentence(content[i])
 
-        artical_set.append(artical)
+            artical['status_title'], artical['located_title'] = ps.located_keyword(keyword, title[i])
+            artical['status_content'], artical['located_content'] = ps.located_keyword(keyword, content[i])
 
-    for x in artical_set:
-        print(x)
+            artical['keyword_title_hit'] = len(artical['located_title'])
+            artical['keyword_content_hit'] = len(artical['located_content'])
 
-    return render(request, "ft_retriver/result.html", locals())
+            artical['title'] = mark_string(title[i], keyword)
+            artical['content'] = mark_string(content[i], keyword)
+
+            artical_set.append(artical)
+
+        for x in artical_set:
+            print(x)
+
+        return render(request, "ft_retriver/result.html", locals())
+

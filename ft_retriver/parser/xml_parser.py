@@ -95,6 +95,7 @@ def parse_xml_abstract_title(filename):
 def load_pubmed_from_file(path):
     f = open(path,'r',encoding="utf-8")
     abstract_string=f.read()
+    f.close()
     return abstract_string
     #parse_xml_abstract_title(abstract_string)
    # print(type(f.read()))
