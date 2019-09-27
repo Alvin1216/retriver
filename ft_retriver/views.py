@@ -37,8 +37,9 @@ def upload_file(request):
             destination.close()
             status = 'SUCCESSFUL!'
             information = 'Your file had been uploaded!'
-            url = '#'
+            url = '../xml/'
             button_content = 'RESULT'
+            file_name=myFile.name
             #return render(request, "ft_retriver/status.html", deal_failed())
             return render(request, "ft_retriver/status.html", locals())
 
@@ -64,13 +65,15 @@ def deal_failed():
 
 
 def xml_deal(request):
-    file_name = 'pubmed_fever_100.xml'
+    print(request.POST['keyword'])
+    print(request.POST['file_name'])
+    file_name = request.POST['file_name']
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     path = os.path.join(BASE_DIR, "files/" + file_name)
-    keyword = 'fever'
+    keyword = request.POST['keyword']
     upload_file_type = 'xml'
-    print(check_file_exist(path))
-    print(path)
+    #print(check_file_exist(path))
+    #print(path)
 
     if not check_file_exist(path):
         return render(request, "ft_retriver/status.html", deal_failed())
@@ -80,7 +83,6 @@ def xml_deal(request):
         content = []
         title, content = ps.parse_xml_abstract_title(path)
         numbers = len(title)
-
         for i in range(0, numbers):
             print(i)
             artical = {}
@@ -98,10 +100,9 @@ def xml_deal(request):
             artical['title'] = mark_string(title[i], keyword)
             artical['content'] = mark_string(content[i], keyword)
 
-            artical_set.append(artical)
+            if artical['status_title']==True or artical['keyword_content_hit'] ==True:
+                artical_set.append(artical)
 
-        for x in artical_set:
-            print(x)
-
+        hit=len(artical_set)
         return render(request, "ft_retriver/result.html", locals())
 

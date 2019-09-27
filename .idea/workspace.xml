@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d77fcd54-6660-49ef-8128-9e8661d4c5ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_retriver/parser/xml_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ft_retriver/parser/xml_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/pubmed1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/pubmed_fever_100.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/pubmed_test1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/pubmed_test2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/xml_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_retriver/templates/ft_retriver/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ft_retriver/templates/ft_retriver/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_retriver/templates/ft_retriver/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/ft_retriver/templates/ft_retriver/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_retriver/templates/ft_retriver/status.html" beforeDir="false" afterPath="$PROJECT_DIR$/ft_retriver/templates/ft_retriver/status.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_retriver/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ft_retriver/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

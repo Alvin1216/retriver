@@ -5,9 +5,20 @@
 <main role="main" class="container">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">{{status}}</h1>
-            <p class="lead">{{information}}</p>
-            <a href={{ url }} class="btn btn-primary">{{button_content}}</a>
+            <h1 class="display-4"><span>&#128077;</span> {{status}}</h1>
+            <!--<p class="lead"><span>&#128079;</span> {{information}}</p>-->
+            {% if status == 'SUCCESSFUL!' %}
+            <!--<p class="lead"><span>&#128073;</span> File name: {{file_name}}</p>-->
+            <form method="POST" action={{url}}>
+                {% csrf_token %}
+                <div class="form-group">
+                    <label >請輸入你想在 {{file_name}} </b>中搜尋的關鍵字:</label>
+                    <input type="hidden" name="file_name" value= {{file_name}}>
+                    <input type="text" class="form-control" name="keyword">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            {%endif%}
         </div>
     </div>
 </main>
