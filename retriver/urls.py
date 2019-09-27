@@ -22,7 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', ft_retriver_view.hello),
     path('uploadfile/', ft_retriver_view.upload_file),
-    path('info/', ft_retriver_view.hello),
     path('xml/', ft_retriver_view.xml_deal),
     path('json/', ft_retriver_view.json_deal),
 
