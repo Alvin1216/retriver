@@ -8,11 +8,19 @@
         <h2><span>&#128079;</span> 你想找的關鍵字：{{keyword}}</h2>
     </div>
     <div class="alert alert-light" role="alert">
+        {% if type == 'xml' %}
         <span>&#128073;</span> 檔案 {{file_name}} 中一共有 {{numbers}} 篇含有標題與摘要的文章
-    </div>
-        <div class="alert alert-light" role="alert">
+        {% else %}
+        <span>&#128073;</span> 檔案 {{file_name}} 中一共有 {{numbers}} 篇推文
+        {%endif%}
 
+    </div>
+    <div class="alert alert-light" role="alert">
+        {% if type == 'xml' %}
         <span>&#128073;</span> 檔案 {{file_name}} 中一共有 {{hit}} 篇文章的標題或摘要中含有你想要的關鍵字
+        {% else %}
+        <span>&#128073;</span> 檔案 {{file_name}} 中一共有 {{hit}} 篇推文含有你想要的關鍵字
+        {%endif%}
     </div>
     {% for as in artical_set%}
     <div class="card" style="margin-bottom: 10px;">
@@ -20,21 +28,52 @@
         <div class="card-body">
             <!--<h5 class="card-title">Special title treatment</h5>-->
             <p>{% autoescape off %} {{as.content}} {% endautoescape %}</p>
+
+            {% if type == 'xml' %}
             <div class="alert alert-warning" role="alert">
                 <span>&#128073;</span> 這篇標題中有 <span style="color:red;">{{as.keyword_title_hit}} </span>個關鍵字
             </div>
+            {%endif%}
+
+            {% if type == 'xml' %}
             <div class="alert alert-primary" role="alert">
                 <span>&#128073;</span> 這篇摘要中有 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字
             </div>
+            {% else %}
+            <div class="alert alert-success" role="alert">
+                <span>&#128073;</span> 這篇推文有 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字
+            </div>
+            {%endif%}
+
+            {% if type == 'xml' %}
             <div class="alert alert-primary" role="alert">
                 <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.character_content}}</span> 個字元
             </div>
+            {% else %}
+            <div class="alert alert-success" role="alert">
+                <span>&#128073;</span> 這篇推文有 <span style="color:red;">{{as.character_content}} </span>個字元
+            </div>
+            {%endif%}
+
+            {% if type == 'xml' %}
             <div class="alert alert-primary" role="alert">
                 <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.word_content}}</span> 個詞
             </div>
+            {% else %}
+            <div class="alert alert-success" role="alert">
+                <span>&#128073;</span> 這篇推文有 <span style="color:red;">{{as.word_content}} </span>個詞
+            </div>
+            {%endif%}
+
+            {% if type == 'xml' %}
             <div class="alert alert-primary" role="alert">
                 <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.sentence_content}} </span>個句子
             </div>
+            {% else %}
+            <div class="alert alert-success" role="alert">
+                <span>&#128073;</span> 這篇推文有 <span style="color:red;">{{as.sentence_content}} </span>個句子
+            </div>
+            {%endif%}
 
         </div>
     </div>

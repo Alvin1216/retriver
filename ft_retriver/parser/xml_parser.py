@@ -208,6 +208,4 @@ def load_from_api():
             for j in range(0, len(located)):
                 print('關鍵字存在於摘要中的第:' + str(located[j]) + '個字元之間')
 
-
-#load_from_file()
-
+# load_from_file()

@@ -114,7 +114,7 @@ def xml_deal(request):
         content = []
         title, content = ps.parse_xml_abstract_title(path)
         numbers = len(title)
-        type='xml'
+        type = 'xml'
         for i in range(0, numbers):
             print(i)
             artical = {}
@@ -137,24 +137,25 @@ def xml_deal(request):
         hit = len(artical_set)
         return render(request, "ft_retriver/result.html", locals())
 
+
 def json_deal(request):
     file_name = request.POST['file_name']
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     path = os.path.join(BASE_DIR, "files/" + file_name)
     keyword = request.POST['keyword']
-    type='json'
+    type = 'json'
 
     if not check_file_exist(path):
         return render(request, "ft_retriver/status.html", deal_failed())
     else:
         json_obj = js.load_json_from_file(path)
         content = js.get_text_from_json_object(json_obj)
-
+        print(json_obj)
         artical_set = []
         title = []
-        content = []
         numbers = len(content)
-        count=1
+        count = 1
+        print(content)
         for i in range(0, numbers):
             print(i)
             artical = {}
@@ -169,8 +170,8 @@ def json_deal(request):
                 artical['keyword_content_hit'] = len(artical['located_content'])
 
                 artical['content'] = mark_string(content[i], keyword)
-                artical['title'] = "這是第 "+str(count)+"篇含有關鍵字的推文"
-                count+=1
+                artical['title'] = "這是第 " + str(count) + "篇含有關鍵字的推文"
+                count += 1
 
                 artical_set.append(artical)
         hit = len(artical_set)

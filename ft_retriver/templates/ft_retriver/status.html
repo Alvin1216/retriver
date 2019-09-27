@@ -12,8 +12,8 @@
             <form method="POST" action={{url}}>
                 {% csrf_token %}
                 <div class="form-group">
-                    <label >請輸入你想在 {{file_name}} </b>中搜尋的關鍵字:</label>
-                    <input type="hidden" name="file_name" value= {{file_name}}>
+                    <label>請輸入你想在 {{file_name}} </b>中搜尋的關鍵字:</label>
+                    <input type="hidden" name="file_name" value={{file_name}}>
                     <input type="text" class="form-control" name="keyword">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
