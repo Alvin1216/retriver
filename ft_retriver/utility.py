@@ -34,6 +34,14 @@ def deal_failed():
     return load_data
 
 def mark_string(original_string, keyword):
-    replacement = ' <span style="color:red;">' + keyword + '</span> '
-    original_string = original_string.replace(keyword, replacement)
+    key_lower=keyword.lower()
+    key_capi=keyword.capitalize()
+    key_up=keyword.upper()
+    replacement = ' <span style="color:red;">' + key_lower + '</span> '
+    original_string = original_string.replace(key_lower, replacement)
+    replacement = ' <span style="color:red;">' + key_capi + '</span> '
+    original_string = original_string.replace(key_capi, replacement)
+    replacement = ' <span style="color:red;">' + key_up + '</span> '
+    original_string = original_string.replace(key_up, replacement)
+
     return original_string

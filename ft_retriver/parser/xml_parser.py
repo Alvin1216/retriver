@@ -113,6 +113,7 @@ def load_pubmed_from_file(path):
 # print(type(f.read()))
 
 def count_character(input_string):
+    input_string = input_string.replace(' ','')
     return len(input_string)
 
 
@@ -140,6 +141,14 @@ def located_keyword(keyword, searched_string):
 def count_sentence(artical):
     # with model in nltk
     return len(sent_tokenize(artical))
+
+def count_sentence2(artical):
+    # with model in nltk
+    regex=r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))'
+    #pattern = re.compile(r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))')
+    match=re.findall(regex, artical)
+    #match = pattern.match(artical)
+    return len(match)
 
 
 def count_words_v2(artical):

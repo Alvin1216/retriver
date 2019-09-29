@@ -72,7 +72,7 @@ def xml_deal(request):
                 # 有重再全算
                 artical['character_content'] = ps.count_character(content[i])
                 artical['word_content'] = ps.count_words(content[i])
-                artical['sentence_content'] = ps.count_sentence(content[i])
+                artical['sentence_content'] = ps.count_sentence2(content[i])
 
                 artical['keyword_title_hit'] = len(artical['located_title'])
                 artical['keyword_content_hit'] = len(artical['located_content'])
@@ -112,7 +112,7 @@ def json_deal(request):
                 # 有重再全算
                 artical['character_content'] = ps.count_character(content[i])
                 artical['word_content'] = ps.count_words(content[i])
-                artical['sentence_content'] = ps.count_sentence(content[i])
+                artical['sentence_content'] = ps.count_sentence2(content[i])
 
                 artical['keyword_content_hit'] = len(artical['located_content'])
 

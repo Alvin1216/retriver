@@ -33,6 +33,7 @@ def get_text_from_json_object(json_object):
 
 
 def count_character(input_string):
+    input_string = input_string.replace(' ', '')
     return len(input_string)
 
 
@@ -61,6 +62,14 @@ def count_sentence(artical):
     # with model in nltk
     return len(sent_tokenize(artical))
 
+def count_sentence2(artical):
+    # with model in nltk
+    regex=r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))'
+    #pattern = re.compile(r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))')
+    match=re.findall(regex, artical)
+    #match = pattern.match(artical)
+    return len(match)
+
 
 def load_from_file():
     path = input("輸入檔案路徑:")
@@ -75,7 +84,7 @@ def load_from_file():
         print('推文:' + content[i])
         print('這篇的推文有 ' + str(count_character(content[i])) + ' 個字元')
         print('這篇的推文有 ' + str(count_words(content[i])) + ' 個詞')
-        print('這篇的推文有 ' + str(count_sentence(content[i])) + ' 個句子')
+        print('這篇的推文有 ' + str(count_sentence2(content[i])) + ' 個句子')
 
         status, located = located_keyword(keyword, content[i])
         print('關鍵字是否存在於推文中:' + str(status))
