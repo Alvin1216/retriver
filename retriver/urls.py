@@ -24,5 +24,6 @@ urlpatterns = [
     path('uploadfile/', ft_retriver_view.upload_file),
     path('xml/', ft_retriver_view.xml_deal),
     path('json/', ft_retriver_view.json_deal),
+    path('hello_result/',ft_retriver_view.hello_result)
 
 ]

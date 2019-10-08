@@ -1,0 +1,34 @@
+{% extends 'ft_retriver/base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<section class="engine"><a href="https://mobirise.info/m">site design templates</a></section>
+<section class="mbr-section content5 cid-rE83tuXctg mbr-parallax-background" id="content5-8">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">SEARCH ENGINE</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    請輸入你想在 {{file_name}} </b>中搜尋的關鍵字
+                </h3>
+                <form method="POST" action={{url}}>
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input type="hidden" name="file_name" value={{file_name}}>
+                        <input type="hidden" name="statusParse" value="start">
+                        <p>{{statusParse}}</p>
+                        <input type="text" class="form-control" name="keyword">
+                    </div>
+                    <div align="center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}

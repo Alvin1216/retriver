@@ -22,14 +22,27 @@ def load_json_from_file(path):
 
 def get_text_from_json_object(json_object):
     content = []
+    user = []
     for i in range(0, len(json_object)):
         if 'text' in json_object[i]:
             content.append(json_object[i]['text'])
+            user.append(json_object[i]['Author ID'])
+            # try:
+            #     if len(json_object[i]['user']) != 0:
+            #         user.append(json_object[i]['user']['screen_name'])
+            # except KeyError:
+            #     print('NO KEY')
         elif 'Text' in json_object[i]:
             content.append(json_object[i]['Text'])
+            user.append(json_object[i]['Author ID'])
+            # try:
+            #     if len(json_object[i]['user']) != 0:
+            #         user.append(json_object[i]['user']['screen_name'])
+            # except KeyError:
+            #     print('NO KEY')
         else:
             print('not a twitter format!')
-    return content
+    return content, user
 
 
 def count_character(input_string):
@@ -38,10 +51,11 @@ def count_character(input_string):
 
 
 def count_words(input_string):
-    words = Counter(input_string.split())
-    wordcount = sum(words.values())
+    input_string = re.sub("[^A-Za-z]", " ", input_string.strip())
+    wordset = Counter(input_string.split())
+    wordcount = sum(wordset.values())
     # print(wordcount)
-    return wordcount
+    return wordset, wordcount
 
 
 def located_keyword(keyword, searched_string):
@@ -58,17 +72,20 @@ def located_keyword(keyword, searched_string):
         return True, located
 
 
-def count_sentence(artical):
+def count_sentence2(artical):
     # with model in nltk
     return len(sent_tokenize(artical))
 
-def count_sentence2(artical):
+
+def count_sentence(artical):
     # with model in nltk
-    regex=r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))'
-    #pattern = re.compile(r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))')
-    match=re.findall(regex, artical)
-    #match = pattern.match(artical)
+    regex = r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))'
+    # pattern = re.compile(r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))')
+    match = re.findall(regex, artical)
+    # match = pattern.match(artical)
     return len(match)
+
+
 
 
 def load_from_file():

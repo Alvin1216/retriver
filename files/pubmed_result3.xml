@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">31561542</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1422-0067</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>20</Volume>
+                    <Issue>19</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of molecular sciences</Title>
+                <ISOAbbreviation>Int J Mol Sci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Discovery of 3-Arylquinoxaline Derivatives as Potential Anti-Dengue Virus Agents.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E4786</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/ijms20194786</ELocationID>
+            <Abstract>
+                <AbstractText>We designed and synthesized a series of novel 3-arylquinoxaline derivatives and evaluated their biological activities as potential dengue virus (DENV) replication inhibitors. Among them, [3-(4-methoxyphenyl)quinoxalin-2-yl](phenyl)methanol (<b>19a</b>), [6,7-dichloro-3-(4-methoxyphenyl)quinoxalin-2-yl](phenyl)methanol (<b>20a</b>), and (4-methoxyphenyl)(3-phenylquinoxalin-2-yl)methanone (<b>21b</b>) were found to significantly inhibit the DENV RNA expression in Huh-7-DV-Fluc cells with a potency better than that of ribavirin. Compound <b>19a</b> reduced DENV replication in both viral protein and messenger RNA (mRNA) levels in a dose-dependent manner and exhibited no significant cell cytotoxicity. Notably, compound <b>19a</b> exhibited a half maximal effective concentration (EC<sub>50</sub>) value at 1.29 ± 0.74 μM. We further observed that the inhibitory effect of <b>19a</b> on DENV replication was due to suppression of DENV-induced cyclooxygenase-2 (COX-2) expression. Docking studies also showed that <b>19a</b> caused hydrophobic interactions at the active sites with Arg29, Glu31, Tyr116, Leu138, Pro139, Lys454, Arg455, and Gln529. The calculated lowest binding energy between the <b>19a</b> and COX-2 was -9.10 kcal/mol. In conclusion, compound <b>19a</b> might be a potential lead compound for developing an anti-DENV agent.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Tseng</LastName>
+                    <ForeName>Chih-Hua</ForeName>
+                    <Initials>CH</Initials>
+                    <Identifier Source="ORCID">0000-0001-7392-7104</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>School of Pharmacy, College of Pharmacy, Kaohsiung Medical University, Kaohsiung 807, Taiwan. chihhua@kmu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Fragrance and Cosmetic Science, College of Pharmacy, Kaohsiung Medical University, Kaohsiung 807, Taiwan. chihhua@kmu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Drug Development and Value Creation Research Center, Kaohsiung Medical University, Kaohsiung 807, Taiwan. chihhua@kmu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Research, Kaohsiung Medical University Hospital, Kaohsiung 807, Taiwan. chihhua@kmu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, Kaohsiung Municipal Ta-Tung Hospital, Kaohsiung 801, Taiwan. chihhua@kmu.edu.tw.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Han</LastName>
+                    <ForeName>Cheng-Ruei</ForeName>
+                    <Initials>CR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Pharmacy, College of Pharmacy, Kaohsiung Medical University, Kaohsiung 807, Taiwan. st88036942017@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tang</LastName>
+                    <ForeName>Kai-Wei</ForeName>
+                    <Initials>KW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Pharmacy, College of Pharmacy, Kaohsiung Medical University, Kaohsiung 807, Taiwan. dadaking1107@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Int J Mol Sci</MedlineTA>
+            <NlmUniqueID>101092791</NlmUniqueID>
+            <ISSNLinking>1422-0067</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">3-arylquinoxaline</Keyword>
+            <Keyword MajorTopicYN="N">cyclooxygenase-2</Keyword>
+            <Keyword MajorTopicYN="N">dengue virus</Keyword>
+            <Keyword MajorTopicYN="N">ribavirin</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31561542</ArticleId>
+            <ArticleId IdType="pii">ijms20194786</ArticleId>
+            <ArticleId IdType="doi">10.3390/ijms20194786</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

@@ -1,0 +1,175 @@
+{% extends 'ft_retriver/base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<section class="engine"><a href="https://mobirise.info/m">site design templates</a></section>
+<section class="mbr-section content5 cid-rE83tuXctg mbr-parallax-background" id="content5-8">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">SEARCH RESULT</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    在 {{file_name}} 中搜尋的關鍵字 {{keyword}} 的結果
+                </h3>
+                <div class="align-center" style="font-family:Microsoft JhengHei; color:white;">
+                    {% if type == 'xml' %}
+                    <h4>檔案 {{file_name}} 中一共有 {{numbers}} 篇含有標題與摘要的文章</h4>
+                    <h4> 檔案 {{file_name}} 中一共有 {{hit}} 篇文章的標題或摘要中含有你想要的關鍵字 </h4>
+                    {% else %}
+                    <h4>檔案 {{file_name}} 中一共有 {{numbers}} 篇推文</h4>
+                    <h4>檔案 {{file_name}} 中一共有 {{hit}} 篇推文含有你想要的關鍵字</h4>
+                    {%endif%}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rE83tw0Bwd" id="content2-9">
+    <div class="container" style="font-family:Microsoft JhengHei;">
+        {% for as in artical_set%}
+        <div class="card" style="margin-bottom: 5px;">
+<!--            <h5 class="card-header"><b>{% autoescape off %} {{as.title}} {% endautoescape %}</b></h5>-->
+            <div class="card-header">
+                <a data-toggle="collapse" data-target="#collapse-{{ as.id }}"><h5>
+                   <i class="fas fa-chevron-down"></i>
+                   <b>{% autoescape off %} {{as.title}} {% endautoescape %}</b>
+               </h5>
+               </a>
+<!--                <h5>{% autoescape off %} {{as.title}} {% endautoescape %}-->
+<!--                    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse"-->
+<!--                            data-target="#collapse-{{ as.id }}" style="font-size: 10px;width:20px;height:30px;">+-->
+<!--                    </button>-->
+<!--                </h5>-->
+            </div>
+            <div id="collapse-{{ as.id }}" class="panel-collapse collapse">
+            <div class="card-body">
+                <!--<h5 class="card-title">Special title treatment</h5>-->
+                <p>{% autoescape off %} {{as.content}} {% endautoescape %}</p>
+
+                {% if type == 'xml' %}
+                <div class="alert alert-success" role="alert" style="color:black;">
+                    <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                    <hr>
+                    <ol style="list-style-type:lower-roman;">
+                        <li>這篇標題中有 <span style="color:red;">{{as.keyword_title_hit}} </span>個關鍵字</li>
+                        <li>這篇摘要中有 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字</li>
+                        <li>這篇摘要有 <span style="color:red;">{{as.character_content}}</span> 個字元</li>
+                        <li>這篇摘要有 <span style="color:red;">{{as.word_content}}</span> 個詞</li>
+                        <li>這篇摘要有 <span style="color:red;">{{as.sentence_content}} </span>個句子</li>
+                        <li>{{as.wordset}}</li>
+                        <li>摘要中 有重要的字嗎?  {{as.common}}</li>
+                    </ol>
+                </div>
+                {%endif%}
+
+                {% if type == 'json' %}
+                <div class="alert alert-success" role="alert" style="color:black;">
+                    <h4 class="alert-heading">-關於這篇推文的詳細資訊-</h4>
+                    <hr>
+                    <ol style="list-style-type:lower-roman;">
+                        <li>這篇推文有 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字</li>
+                        <li>這篇推文有 <span style="color:red;">{{as.character_content}} </span>個字元</li>
+                        <li>這篇推文有 <span style="color:red;">{{as.word_content}} </span>個詞</li>
+                        <li>這篇推文有 <span style="color:red;">{{as.sentence_content}} </span>個句子</li>
+                        <li>{{as.wordset}}</li>
+                        {% if as.tag != '' %}
+                        <li>Hashtag:{% autoescape off %}{{as.tag}}{% endautoescape %}</li>
+                        {%endif%}
+
+                        {% if as.http != '' %}
+                        <li>內含的url :{% autoescape off %}{{as.http}}{% endautoescape %}</li>
+                        {%endif%}
+                        <li>有重要的字嗎?  {{as.common}}</li>
+                    </ol>
+                </div>
+                {%endif%}
+            </div>
+        </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+
+<!--<div class="panel-group">-->
+<!--    <div class="panel panel-default">-->
+<!--        {% for as in artical_set%}-->
+<!--        <div class="panel-heading">-->
+<!--            <div class="panel-title">-->
+<!--                <a data-toggle="collapse" data-target="#collapse-{{ as.id }}"><h3>-->
+<!--                    <i class="fas fa-chevron-down"></i>-->
+<!--                    <b>{% autoescape off %} {{as.title}} {% endautoescape %}</b>-->
+<!--                </h3>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div id="collapse-{{ as.id }}" class="panel-collapse collapse">-->
+<!--            <p>{% autoescape off %} {{as.content}} {% endautoescape %}</p>-->
+
+<!--            {% if type == 'json' %}-->
+<!--            <div class="alert alert-success" role="alert" style="color:black;">-->
+<!--                <h4 class="alert-heading">-關於這篇推文的詳細資訊-</h4>-->
+<!--                <hr>-->
+<!--                <ol style="list-style-type:lower-roman;">-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字</li>-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.character_content}} </span>個字元</li>-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.word_content}} </span>個詞</li>-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.sentence_content}} </span>個句子</li>-->
+<!--                    <li>{{as.wordset}}</li>-->
+<!--                    {% if as.tag != '' %}-->
+<!--                    <li>Hashtag:{% autoescape off %}{{as.tag}}{% endautoescape %}</li>-->
+<!--                    {%endif%}-->
+
+<!--                    {% if as.http != '' %}-->
+<!--                    <li>內含的url :{% autoescape off %}{{as.http}}{% endautoescape %}</li>-->
+<!--                    {%endif%}-->
+<!--                </ol>-->
+<!--            </div>-->
+<!--            {%endif%}-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--{% for as in artical_set%}-->
+<!--<div class="card">-->
+<!--    <div class="card-header" id="headingOne">-->
+<!--        <h3><b>{% autoescape off %} {{as.title}} {% endautoescape %}</b>-->
+<!--            <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse"-->
+<!--                    data-target="#collapse-{{ as.id }}">View detail-->
+<!--            </button>-->
+<!--        </h3>-->
+<!--    </div>-->
+
+<!--    <div id="collapse-{{ as.id }}" class="panel-collapse collapse">-->
+<!--        <div class="card-body">-->
+<!--            <p>{% autoescape off %} {{as.content}} {% endautoescape %}</p>-->
+
+<!--            {% if type == 'json' %}-->
+<!--            <div class="alert alert-success" role="alert" style="color:black;">-->
+<!--                <h4 class="alert-heading">-關於這篇推文的詳細資訊-</h4>-->
+<!--                <hr>-->
+<!--                <ol style="list-style-type:lower-roman;">-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.keyword_content_hit}} </span>個關鍵字</li>-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.character_content}} </span>個字元</li>-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.word_content}} </span>個詞</li>-->
+<!--                    <li>這篇推文有 <span style="color:red;">{{as.sentence_content}} </span>個句子</li>-->
+<!--                    <li>{{as.wordset}}</li>-->
+<!--                    {% if as.tag != '' %}-->
+<!--                    <li>Hashtag:{% autoescape off %}{{as.tag}}{% endautoescape %}</li>-->
+<!--                    {%endif%}-->
+
+<!--                    {% if as.http != '' %}-->
+<!--                    <li>內含的url :{% autoescape off %}{{as.http}}{% endautoescape %}</li>-->
+<!--                    {%endif%}-->
+<!--                </ol>-->
+<!--            </div>-->
+<!--            {%endif%}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--{% endfor %}-->
+
+{% endblock %}

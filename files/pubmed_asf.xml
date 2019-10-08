@@ -1,0 +1,3720 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31560174</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2053-1095</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Veterinary medicine and science</Title>
+                <ISOAbbreviation>Vet Med Sci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Trace amounts of African swine fever virus DNA detected in insects collected from an infected pig farm in Estonia.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/vms3.200</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">African swine fever (ASF), a severe multi-systemic disease in pigs, was introduced into Estonia in 2014. The majority of outbreaks have occurred during the summer months. Given that ASFV is transmitted in a sylvatic cycle that includes the transmission by African soft ticks and that mechanical transmission by flying insects was shown, transmission by other arthropod vectors need to be considered.</AbstractText>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Here, we report the results of a pilot study on flying insects caught on an outbreak farm during epidemiological investigations.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In brief, 15 different insect species (flies and mosquitoes) were collected by random catch using an aerial net. Nucleic acids derived from these samples or their pools were tested for African swine fever virus (ASFV) DNA by real-time PCR.</AbstractText>
+                <AbstractText Label="RESULTS AND CONCLUSIONS" NlmCategory="CONCLUSIONS">Viral DNA was detected in small quantities in two samples from flies and mosquitoes. Given the slow spread of virus within the farm, the impact of these findings seems rather low, but a role in local transmission cannot be ruled out. However, given the very low number of insects sampled, and taken into the account that viral isolation was not performed and insects outside the farm were not investigated, future investigations are needed to assess the true impact of insects as mechanical vectors.</AbstractText>
+                <CopyrightInformation>© 2019 The Authors. Veterinary Medicine and Science Published by John Wiley &amp; Sons Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Herm</LastName>
+                    <ForeName>Reet</ForeName>
+                    <Initials>R</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-2587-7111</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Equine Clinic, Chair of Clinical Veterinary Medicine, Estonian University of Life Sciences, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tummeleht</LastName>
+                    <ForeName>Lea</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Veterinary Bio- and Population Medicine, Estonian University of Life Sciences, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jürison</LastName>
+                    <ForeName>Margret</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Plant Health, Estonian University of Life Sciences, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vilem</LastName>
+                    <ForeName>Annika</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Analysis, Veterinary and Food Laboratory, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Viltrop</LastName>
+                    <ForeName>Arvo</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Veterinary Bio- and Population Medicine, Estonian University of Life Sciences, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>8T160146VLVP</GrantID>
+                    <Agency>Estonian Ministry of Rural Affairs</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>8T160146VLVP</GrantID>
+                    <Agency>Eesti Teadusagentuur</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D002363">Case Reports</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Vet Med Sci</MedlineTA>
+            <NlmUniqueID>101678837</NlmUniqueID>
+            <ISSNLinking>2053-1095</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">mechanical vectors</Keyword>
+            <Keyword MajorTopicYN="N">real-time PCR</Keyword>
+            <Keyword MajorTopicYN="N">transmission routes</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31560174</ArticleId>
+            <ArticleId IdType="doi">10.1002/vms3.200</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31560107</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1572-994X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Virus genes</Title>
+                <ISOAbbreviation>Virus Genes</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An extra insertion of tandem repeat sequence in African swine fever virus, China, 2019.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s11262-019-01704-9</ELocationID>
+            <Abstract>
+                <AbstractText>On 7 March 2019, African swine fever in a domestic pig farm was detected in Guangxi Province of China. The phylogenetic analysis showed that its causative strain contained two tandem repeat sequence insertions in the intergenic region between the I73R and the I329L genes, and was different from previously reported strains in China and other countries.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ge</LastName>
+                    <ForeName>Shengqiang</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Yutian</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Lin</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Qinghua</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jinming</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Weijie</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Chunju</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bao</LastName>
+                    <ForeName>Jingyue</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Xiaodong</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China. wuxiaodong@cahec.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Zhiliang</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>China Animal Health and Epidemiology Center, Qingdao, China. wangzhiliang@cahec.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Virus Genes</MedlineTA>
+            <NlmUniqueID>8803967</NlmUniqueID>
+            <ISSNLinking>0920-8569</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever</Keyword>
+            <Keyword MajorTopicYN="N">China</Keyword>
+            <Keyword MajorTopicYN="N">Tandem repeat sequence</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31560107</ArticleId>
+            <ArticleId IdType="doi">10.1007/s11262-019-01704-9</ArticleId>
+            <ArticleId IdType="pii">10.1007/s11262-019-01704-9</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31547130</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1999-4915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Viruses</Title>
+                <ISOAbbreviation>Viruses</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Serum-Derived Extracellular Vesicles from African Swine Fever Virus-Infected Pigs Selectively Recruit Viral and Porcine Proteins.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E882</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/v11100882</ELocationID>
+            <Abstract>
+                <AbstractText><b>:</b> African swine fever is a devastating hemorrhagic infectious disease, which affects domestic and wild swines (<i>Sus</i><i>scrofa</i>) of all breeds and ages, with a high lethality of up to 90-100% in naïve animals. The causative agent, African swine fever virus (ASFV), is a large and complex double-stranded DNA arbovirus which is currently spreading worldwide, with serious socioeconomic consequences. There is no treatment or effective vaccine commercially available, and most of the current research is focused on attenuated viral models, with limited success so far. Thus, new strategies are under investigation. Extracellular vesicles (EVs) have proven to be a promising new vaccination platform for veterinary diseases in situations in which conventional approaches have not been completely successful. Here, serum extracellular vesicles from infected pigs using two different ASFV viruses (OURT 88/3 and Benin ΔMGF), corresponding to a naturally attenuated virus and a deletion mutant, respectively, were characterized in order to determine possible differences in the content of swine and viral proteins in EV-enriched fractions. Firstly, EVs were characterized by their CD5, CD63, CD81 and CD163 surface expression. Secondly, ASFV proteins were detected on the surface of EVs from ASFV-infected pig serum. Finally, proteomic analysis revealed few specific proteins from ASFV in the EVs, but 942 swine proteins were detected in all EV preparations (negative controls, and OURT 88/3 and Benin ΔMGF-infected preparations). However, in samples from OURT 88/3-infected animals, only a small number of proteins were differentially identified compared to control uninfected animals. Fifty-six swine proteins (Group Benin) and seven proteins (Group OURT 88/3) were differentially detected on EVs when compared to the EV control group. Most of these were related to coagulation cascades. The results presented here could contribute to a better understanding of ASFV pathogenesis and immune/protective responses in the host.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Montaner-Tarbes</LastName>
+                    <ForeName>Sergio</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Innovex Therapeutics S.L., 08916 Badalona, Barcelona, Spain. smontaner@igtp.cat.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Departamento de Ciència Animal, Escola Tècnica Superior d'Enginyeria Agrària, Avenida Alcalde Rovira Roure, 191, 25198 Lleida, Spain. smontaner@igtp.cat.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pujol</LastName>
+                    <ForeName>Myriam</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Medicine, Universidad de Chile, Santiago 7591538, Chile. hernandoa.delportillo@isglobal.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jabbar</LastName>
+                    <ForeName>Tamara</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK. tamara.jabbar@pirbright.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hawes</LastName>
+                    <ForeName>Philippa</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK. pippa.hawes@pirbright.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chapman</LastName>
+                    <ForeName>Dave</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK. chapmand@MedImmune.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Portillo</LastName>
+                    <ForeName>Hernando Del</ForeName>
+                    <Initials>HD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Innovex Therapeutics S.L., 08916 Badalona, Barcelona, Spain. lorenzo.fraile@ca.udl.cat.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fraile</LastName>
+                    <ForeName>Lorenzo</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Innovex Therapeutics S.L., 08916 Badalona, Barcelona, Spain. myriampujol@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Departamento de Ciència Animal, Escola Tècnica Superior d'Enginyeria Agrària, Avenida Alcalde Rovira Roure, 191, 25198 Lleida, Spain. myriampujol@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sánchez-Cordón</LastName>
+                    <ForeName>Pedro J</ForeName>
+                    <Initials>PJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK. Pedro.Sanchez-Cordon@apha.gov.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dixon</LastName>
+                    <ForeName>Linda</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK. linda.dixon@pirbright.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montoya</LastName>
+                    <ForeName>Maria</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Innovex Therapeutics S.L., 08916 Badalona, Barcelona, Spain. maria.montoya@cib.csic.es.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK. maria.montoya@cib.csic.es.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centro de Investigaciones Biológicas (CIB-CSIC), Universidad Complutense de Madrid, Ramiro de Maeztu 9, Madrid 28040, Spain. maria.montoya@cib.csic.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>BBS/E/I/00002014</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>CA15116 ASF-STOP</GrantID>
+                    <Agency>COST ACTION</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Viruses</MedlineTA>
+            <NlmUniqueID>101509722</NlmUniqueID>
+            <ISSNLinking>1999-4915</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever virus</Keyword>
+            <Keyword MajorTopicYN="N">extracellular vesicles</Keyword>
+            <Keyword MajorTopicYN="N">proteomic analysis</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31547130</ArticleId>
+            <ArticleId IdType="pii">v11100882</ArticleId>
+            <ArticleId IdType="doi">10.3390/v11100882</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31540341</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1999-4915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Viruses</Title>
+                <ISOAbbreviation>Viruses</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>African Swine Fever: Disease Dynamics in Wild Boar Experimentally Infected with ASFV Isolates Belonging to Genotype I and II.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E852</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/v11090852</ELocationID>
+            <Abstract>
+                <AbstractText>After the re-introduction of African swine fever virus (ASFV) genotype II isolates into Georgia in 2007, the disease spread from Eastern to Western Europe and then jumped first up to Mongolian borders and later into China in August 2018, spreading out of control and reaching different countries of Southeast Asia in 2019. From the initial incursion, along with domestic pigs, wild boar displayed a high susceptibility to ASFV and disease development. The disease established self-sustaining cycles within the wild boar population, a key fact that helped its spread and that pointed to the wild boar population as a substantial reservoir in Europe and probably also in Asia, which may hinder eradication and serve as the source for further geographic expansion. The present review gathers the most relevant information available regarding infection dynamics, disease pathogenesis and immune response that experimental infections with different ASFV isolates belonging to genotype I and II in wild boar and feral pigs have generated. Knowledge gaps in areas such as disease pathogenesis and immune response highlights the importance of focusing future studies on unravelling the early mechanisms of virus-cell interaction and innate and/or adaptive immune responses, knowledge that will contribute to the development of efficacious treatments/vaccines against ASFV.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sánchez-Cordón</LastName>
+                    <ForeName>Pedro J</ForeName>
+                    <Initials>PJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nunez</LastName>
+                    <ForeName>Alejandro</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Neimanis</LastName>
+                    <ForeName>Aleksija</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Wildlife Diseases, National Veterinary Institute (SVA), 751 89 Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wikström-Lassa</LastName>
+                    <ForeName>Emil</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Wildlife Diseases, National Veterinary Institute (SVA), 751 89 Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montoya</LastName>
+                    <ForeName>María</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Biological Research Center (CIB-CSIC), Ramiro de Maeztu 9, 28040 Madrid, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Crooke</LastName>
+                    <ForeName>Helen</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Virology Department, Animal and Plant Health Agency, APHA-Weybridge, Woodham Lane, New Haw, Addlestone KT15 3NB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gavier-Widén</LastName>
+                    <ForeName>Dolores</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Wildlife Diseases, National Veterinary Institute (SVA), 751 89 Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Sciences and Veterinary Public Health, Swedish University of Agricultural Sciences (SLU), Box 7028, 750 07 Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>COST ACTION CA15116 ASF-STOP</GrantID>
+                    <Agency>European Cooperation in Science and Technology</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Viruses</MedlineTA>
+            <NlmUniqueID>101509722</NlmUniqueID>
+            <ISSNLinking>1999-4915</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever virus</Keyword>
+            <Keyword MajorTopicYN="N">experimental infection.</Keyword>
+            <Keyword MajorTopicYN="N">genotype I and II</Keyword>
+            <Keyword MajorTopicYN="N">wild boar</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31540341</ArticleId>
+            <ArticleId IdType="pii">v11090852</ArticleId>
+            <ArticleId IdType="doi">10.3390/v11090852</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31538406</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1865-1682</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Transboundary and emerging diseases</Title>
+                <ISOAbbreviation>Transbound Emerg Dis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Current status and evolving approaches to African swine fever vaccine development.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/tbed.13364</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever (ASF) is a highly lethal hemorrhagic disease of swine caused by African swine fever virus (ASFV), a unique and genetically complex virus. The disease continues to be a huge burden to the pig industry in Africa, Europe and recently in Asia, especially China. The purpose of this review is to recapitulate the current scenarios and evolving trends in ASF vaccine development. The unavailability of an applicable ASF vaccine is partly due to the complex nature of the virus, which encodes various proteins associated with immune evasion. Moreover, the incomplete understanding of immune protection determinants of ASFV hampers the rational vaccine design. Developing an effective ASF vaccine continues to be a challenging task due to many undefined features of ASFV immunobiology. Recent attempts on DNA and live attenuated ASF vaccines have been reported with promising efficacy, and especially live attenuated vaccines have been proved to provide complete homologous protection. Single-cycle viral vaccines have been developed for various diseases such as Rift Valley fever, bluetongue and the rational extension of these strategies could be helpful for developing single-cycle ASF vaccines. Therefore, live attenuated vaccines in short-term and single-cycle vaccines in long-term would be the next-generation of ASF vaccines.</AbstractText>
+                <CopyrightInformation>© 2019 Blackwell Verlag GmbH.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Teklue</LastName>
+                    <ForeName>Teshale</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Veterinary Biotechnology, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Tigray Agricultural Research Institute, Mekelle, Ethiopia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sun</LastName>
+                    <ForeName>Yuan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Veterinary Biotechnology, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Muhammad</LastName>
+                    <ForeName>Abid</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Veterinary Biotechnology, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Yuzi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Veterinary Biotechnology, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qiu</LastName>
+                    <ForeName>Hua-Ji</ForeName>
+                    <Initials>HJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Veterinary Biotechnology, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Transbound Emerg Dis</MedlineTA>
+            <NlmUniqueID>101319538</NlmUniqueID>
+            <ISSNLinking>1865-1674</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever</Keyword>
+            <Keyword MajorTopicYN="N">immune evasion</Keyword>
+            <Keyword MajorTopicYN="N">immune protection</Keyword>
+            <Keyword MajorTopicYN="N">vaccines</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31538406</ArticleId>
+            <ArticleId IdType="doi">10.1111/tbed.13364</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31533266</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1999-4915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>17</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Viruses</Title>
+                <ISOAbbreviation>Viruses</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>African Swine Fever: Fast and Furious or Slow and Steady?</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E866</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/v11090866</ELocationID>
+            <Abstract>
+                <AbstractText>Since the introduction of African swine fever (ASF) into Georgia in 2007, the disease has been spreading in an unprecedented way. Many countries that are still free from the disease fear the emergence of ASF in their territory either in domestic pigs or in wild boar. In the past, ASF was often described as being a highly contagious disease with mortality often up to 100%. However, the belief that the disease might enter a naïve population and rapidly affect the entire susceptible population needs to be critically reviewed. The current ASF epidemic in wild boar, but also the course of ASF within outbreaks in domestic pig holdings, suggest a constant, but relatively slow spread. Moreover, the results of several experimental and field studies support the impression that the spread of ASF is not always fast. ASF spread and its speed depend on various factors concerning the host, the virus, and also the environment. Many of these factors and their effects are not fully understood. For this review, we collated published information regarding the spreading speed of ASF and the factors that are deemed to influence the speed of ASF spread and tried to clarify some issues and open questions in this respect.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Schulz</LastName>
+                    <ForeName>Katja</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald-Insel Riems, Germany. Katja.Schulz@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Conraths</LastName>
+                    <ForeName>Franz Josef</ForeName>
+                    <Initials>FJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald-Insel Riems, Germany. Franz.Conraths@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blome</LastName>
+                    <ForeName>Sandra</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald-Insel Riems, Germany. Sandra.Blome@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Staubach</LastName>
+                    <ForeName>Christoph</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald-Insel Riems, Germany. Christoph.Staubach@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sauter-Louis</LastName>
+                    <ForeName>Carola</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald-Insel Riems, Germany. Carola.Sauter-Louis@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Viruses</MedlineTA>
+            <NlmUniqueID>101509722</NlmUniqueID>
+            <ISSNLinking>1999-4915</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever</Keyword>
+            <Keyword MajorTopicYN="N">case fatality ratio</Keyword>
+            <Keyword MajorTopicYN="N">disease spread</Keyword>
+            <Keyword MajorTopicYN="N">epidemiology</Keyword>
+            <Keyword MajorTopicYN="N">mortality</Keyword>
+            <Keyword MajorTopicYN="N">transmission</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31533266</ArticleId>
+            <ArticleId IdType="pii">v11090866</ArticleId>
+            <ArticleId IdType="doi">10.3390/v11090866</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31533244</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1999-4915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>17</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Viruses</Title>
+                <ISOAbbreviation>Viruses</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An Update on African Swine Fever Virology.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E864</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/v11090864</ELocationID>
+            <Abstract>
+                <AbstractText>Animal diseases constitute a continuing threat to animal health, food safety, national economy, and the environment. Among those, African swine fever (ASF) is one of the most devastating viruses affecting pigs and wild suids due to the lack of vaccine or effective treatment. ASF is endemic in countries in sub-Saharan Africa, but since its introduction to the Caucasus region in 2007, a highly virulent strain of ASF virus (ASFV) has continued to circulate and spread into Eastern Europe and Russia, and most recently into Western Europe, China, and various countries of Southeast Asia. Given the importance of this disease, this review will highlight recent discoveries in basic virology with special focus on proteomic analysis, replication cycle, and some recent data on genes involved in cycle progression and viral-host interactions, such as I215L (E2 ubiquitin-conjugating enzyme), EP402R (CD2v), A104R (histone-like protein), QP509L, and Q706L (RNA helicases) or P1192R (Topoisomerase II). Taking into consideration the large DNA genome of ASFV and its complex interactions with the host, more studies and new approaches are to be taken to understand the basic virus-host interaction for ASFV. Proteomic studies are just paving the way for future research.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Karger</LastName>
+                    <ForeName>Axel</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">0000-0002-0054-7394</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Molecular Virology and Cell Biology, Friedrich Loeffler Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald-Insel Riems, Germany. axel.karger@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pérez-Núñez</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Virology Department, Centro Biología Molecular Severo Ochoa, CSIC-UAM, 28049 Madrid, Spain. daniel_perez@cbm.csic.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Urquiza</LastName>
+                    <ForeName>Jesús</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0002-7870-4580</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>INIA, Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria, 28040 Madrid, Spain. chuslucena12@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hinojar</LastName>
+                    <ForeName>Patricia</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>INIA, Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria, 28040 Madrid, Spain. phinojar@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alonso</LastName>
+                    <ForeName>Covadonga</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">0000-0002-0862-6177</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>INIA, Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria, 28040 Madrid, Spain. calonso@inia.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Freitas</LastName>
+                    <ForeName>Ferdinando B</ForeName>
+                    <Initials>FB</Initials>
+                    <Identifier Source="ORCID">0000-0002-1218-5052</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Interdisciplinary Research in Animal Health (CIISA), Faculty of Veterinary Medicine, University of Lisbon, 1649-004 Lisboa, Portugal. FerdinandoFreitas@fmv.ulisboa.pt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Revilla</LastName>
+                    <ForeName>Yolanda</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Virology Department, Centro Biología Molecular Severo Ochoa, CSIC-UAM, 28049 Madrid, Spain. yrevilla@cbm.csic.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Le Potier</LastName>
+                    <ForeName>Marie-Frédérique</ForeName>
+                    <Initials>MF</Initials>
+                    <Identifier Source="ORCID">0000-0003-3929-9129</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>ANSES, Laboratoire de Ploufragan/Plouzané/Niort, Unité Virologie Immunologie Porcines, Anses, 22440 Ploufragan, France. marie-frederique.lepotier@anses.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montoya</LastName>
+                    <ForeName>Maria</ForeName>
+                    <Initials>M</Initials>
+                    <Identifier Source="ORCID">0000-0002-5703-7360</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Centro de Investigaciones Biológicas (CIB-CSIC), Ramiro de Maeztu 9, 28040 Madrid, Spain. maria.montoya@cib.csic.es.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Viruses</MedlineTA>
+            <NlmUniqueID>101509722</NlmUniqueID>
+            <ISSNLinking>1999-4915</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever virus</Keyword>
+            <Keyword MajorTopicYN="N">proteomics</Keyword>
+            <Keyword MajorTopicYN="N">virology</Keyword>
+            <Keyword MajorTopicYN="N">virus–host interaction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31533244</ArticleId>
+            <ArticleId IdType="pii">v11090864</ArticleId>
+            <ArticleId IdType="doi">10.3390/v11090864</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31530894</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1748-7838</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>17</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cell research</Title>
+                <ISOAbbreviation>Cell Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Structure of the African swine fever virus major capsid protein p72.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41422-019-0232-x</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Qi</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, Center for Infectious Disease Research, Department of Basic Medical Sciences, School of Medicine, Tsinghua University, Beijing, 100084, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Bingting</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, Center for Infectious Disease Research, Department of Basic Medical Sciences, School of Medicine, Tsinghua University, Beijing, 100084, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qian</LastName>
+                    <ForeName>Nianchao</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Science, Tsinghua University, Beijing, 100084, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Fan</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Science, Tsinghua University, Beijing, 100084, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>Xu</ForeName>
+                    <Initials>X</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-4861-4573</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Science, Tsinghua University, Beijing, 100084, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lei</LastName>
+                    <ForeName>Jianlin</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-9384-8742</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Life Science, Tsinghua University, Beijing, 100084, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiang</LastName>
+                    <ForeName>Ye</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, Center for Infectious Disease Research, Department of Basic Medical Sciences, School of Medicine, Tsinghua University, Beijing, 100084, China. yxiang@mail.tsinghua.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>21827810</GrantID>
+                    <Agency>National Natural Science Foundation of China (National Science Foundation of China)</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016422">Letter</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Cell Res</MedlineTA>
+            <NlmUniqueID>9425763</NlmUniqueID>
+            <ISSNLinking>1001-0602</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31530894</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41422-019-0232-x</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41422-019-0232-x</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31524583</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1080-6059</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>25</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Dec</Month>
+                        <Day>17</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Emerging infectious diseases</Title>
+                <ISOAbbreviation>Emerging Infect. Dis.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Half-Life of African Swine Fever Virus in Shipped Feed.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3201/eid2512.191002</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever virus is transmissible through animal consumption of contaminated feed. To determine virus survival during transoceanic shipping, we calculated the half-life of the virus in 9 feed ingredients exposed to 30-day shipment conditions. Half-lives ranged from 9.6 to 14.2 days, indicating that the feed matrix environment promotes virus stability.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Stoian</LastName>
+                    <ForeName>Ana M M</ForeName>
+                    <Initials>AMM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zimmerman</LastName>
+                    <ForeName>Jeff</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ji</LastName>
+                    <ForeName>Ju</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hefley</LastName>
+                    <ForeName>Trevor J</ForeName>
+                    <Initials>TJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dee</LastName>
+                    <ForeName>Scott</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Diel</LastName>
+                    <ForeName>Diego G</ForeName>
+                    <Initials>DG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rowland</LastName>
+                    <ForeName>Raymond R R</ForeName>
+                    <Initials>RRR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Niederwerder</LastName>
+                    <ForeName>Megan C</ForeName>
+                    <Initials>MC</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Emerg Infect Dis</MedlineTA>
+            <NlmUniqueID>9508155</NlmUniqueID>
+            <ISSNLinking>1080-6040</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ASFV</Keyword>
+            <Keyword MajorTopicYN="N">African swine fever virus</Keyword>
+            <Keyword MajorTopicYN="N">feed ingredients</Keyword>
+            <Keyword MajorTopicYN="N">half-life</Keyword>
+            <Keyword MajorTopicYN="N">transatlantic shipping model</Keyword>
+            <Keyword MajorTopicYN="N">transoceanic shipping</Keyword>
+            <Keyword MajorTopicYN="N">virus persistence</Keyword>
+            <Keyword MajorTopicYN="N">virus stability</Keyword>
+            <Keyword MajorTopicYN="N">viruses</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31524583</ArticleId>
+            <ArticleId IdType="doi">10.3201/eid2512.191002</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31521391</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2542</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Jul</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Veterinary microbiology</Title>
+                <ISOAbbreviation>Vet. Microbiol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Transmission of African Swine Fever Virus via carrier (survivor) pigs does occur.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>108345</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0378-1135(19)30245-7</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.vetmic.2019.06.018</ELocationID>
+            <Abstract>
+                <AbstractText>We investigated whether ASF carrier pigs that had completely recovered from an acute infection with ASFV Netherlands '86, could transmit the disease to naive pigs by direct contact transmission. For this, we used pigs that had survived an ASFV infection, had recovered from disease, and had become carriers of ASFV. These clinically healthy carriers were put together one-by-one with naive contact pigs. Two of the twelve contact pigs developed an acute ASFV infection. Using the results of the experiment we quantified the transmission parameters β<sub>carrier</sub> (0.039/day) and T<sub>carrier</sub> (25.4 days). With the survival rate of 0.3 for our ASFV isolate, these parameter values translate into the contribution of carriers to R<sub>0</sub> in groups of pigs being 0.3. Further, we placed naive contact pigs in an ASFV contaminated environment. Here, no contact infections were observed. Our findings show that clinically healthy carriers can be a source of acute new infections, which can contribute to the persistence of ASFV in swine populations. The estimates that we provide can be used for modelling of transmission in domestic pigs and, in part, for modelling transmission in wild boar.</AbstractText>
+                <CopyrightInformation>Copyright © 2019 The Authors. Published by Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Eblé</LastName>
+                    <ForeName>P L</ForeName>
+                    <Initials>PL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wageningen Bioveterinary Research (WBVR), P.O. Box 65, 8200 AB, Lelystad, the Netherlands. Electronic address: phaedra.eble@wur.nl.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hagenaars</LastName>
+                    <ForeName>T J</ForeName>
+                    <Initials>TJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wageningen Bioveterinary Research (WBVR), P.O. Box 65, 8200 AB, Lelystad, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Weesendorp</LastName>
+                    <ForeName>E</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wageningen Bioveterinary Research (WBVR), P.O. Box 65, 8200 AB, Lelystad, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Quak</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wageningen Bioveterinary Research (WBVR), P.O. Box 65, 8200 AB, Lelystad, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moonen-Leusen</LastName>
+                    <ForeName>H W</ForeName>
+                    <Initials>HW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wageningen Bioveterinary Research (WBVR), P.O. Box 65, 8200 AB, Lelystad, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Loeffen</LastName>
+                    <ForeName>W L A</ForeName>
+                    <Initials>WLA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wageningen Bioveterinary Research (WBVR), P.O. Box 65, 8200 AB, Lelystad, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Vet Microbiol</MedlineTA>
+            <NlmUniqueID>7705469</NlmUniqueID>
+            <ISSNLinking>0378-1135</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African Swine Fever</Keyword>
+            <Keyword MajorTopicYN="N">Carrier</Keyword>
+            <Keyword MajorTopicYN="N">Environment</Keyword>
+            <Keyword MajorTopicYN="N">Reproduction ratio</Keyword>
+            <Keyword MajorTopicYN="N">Survivor</Keyword>
+            <Keyword MajorTopicYN="N">Transmission</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>02</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>06</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>06</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31521391</ArticleId>
+            <ArticleId IdType="pii">S0378-1135(19)30245-7</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.vetmic.2019.06.018</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31514438</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1999-4915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>11</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Viruses</Title>
+                <ISOAbbreviation>Viruses</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Deep-Sequencing Workflow for the Fast and Efficient Generation of High-Quality African Swine Fever Virus Whole-Genome Sequences.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E846</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/v11090846</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever (ASF) is a severe disease of suids caused by African swine fever virus (ASFV). Its dsDNA genome (170-194 kbp) is scattered with homopolymers and repeats as well as inverted-terminal-repeats (ITR), which hamper whole-genome sequencing. To date, only a few genome sequences have been published and only for some are data on sequence quality available enabling in-depth investigations. Especially in Europe and Asia, where ASFV has continuously spread since its introduction into Georgia in 2007, a very low genetic variability of the circulating ASFV-strains was reported. Therefore, only whole-genome sequences can serve as a basis for detailed virus comparisons. Here, we report an effective workflow, combining target enrichment, Illumina and Nanopore sequencing for ASFV whole-genome sequencing. Following this approach, we generated an improved high-quality ASFV Georgia 2007/1 whole-genome sequence leading to the correction of 71 sequencing errors and the addition of 956 and 231 bp at the respective ITRs. This genome, derived from the primary outbreak in 2007, can now serve as a reference for future whole-genome analyses of related ASFV strains and molecular approaches. Using both workflow and the reference genome, we generated the first ASFV-whole-genome sequence from Moldova, expanding the sequence knowledge from Eastern Europe.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Forth</LastName>
+                    <ForeName>Jan H</ForeName>
+                    <Initials>JH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. janhendrik.forth@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Forth</LastName>
+                    <ForeName>Leonie F</ForeName>
+                    <Initials>LF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. leonie.forth@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>King</LastName>
+                    <ForeName>Jacqueline</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. jacqueline.king@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Groza</LastName>
+                    <ForeName>Oxana</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Animal Health Diagnostic Laboratory, Republican Center for Veterinary Diagnostic, str. Murelor, 3, MD-2051, mun. Chișinău, Moldova. crdv@ansa.gov.md.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hübner</LastName>
+                    <ForeName>Alexandra</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. a.huebner87@gmx.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Olesen</LastName>
+                    <ForeName>Ann Sofie</ForeName>
+                    <Initials>AS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Veterinary and Animal Sciences, Faculty of Health and Medical Sciences, University of Copenhagen, DK-1870 Frederiksberg C, Denmark. ann.sofie.olesen@sund.ku.dk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Höper</LastName>
+                    <ForeName>Dirk</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. dirk.hoeper@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dixon</LastName>
+                    <ForeName>Linda K</ForeName>
+                    <Initials>LK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, GU24 0NF, UK. linda.dixon@pirbright.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Netherton</LastName>
+                    <ForeName>Christopher L</ForeName>
+                    <Initials>CL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Pirbright Institute, Ash Road, Pirbright, Woking, GU24 0NF, UK. christopher.netherton@pirbright.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rasmussen</LastName>
+                    <ForeName>Thomas Bruun</ForeName>
+                    <Initials>TB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>DTU National Veterinary Institute, Technical University of Denmark, Lindholm, DK-4771 Kalvehave, Denmark. tbru@ssi.dk.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Virus &amp; Microbiological Special Diagnostics, Statens Serum Institut, DK-2300 Copenhagen S, Denmark. tbru@ssi.dk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blome</LastName>
+                    <ForeName>Sandra</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. sandra.blome@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pohlmann</LastName>
+                    <ForeName>Anne</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. Anne.pohlmann@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beer</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Südufer 10, 17493 Greifswald - Insel Riems, Germany. martin.beer@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>643476</GrantID>
+                    <Agency>Horizon 2020</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>ASFV-Research Network</GrantID>
+                    <Agency>Friedrich-Loeffler-Institut</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>653316</GrantID>
+                    <Agency>Horizon 2020</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Viruses</MedlineTA>
+            <NlmUniqueID>101509722</NlmUniqueID>
+            <ISSNLinking>1999-4915</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever virus (ASFV)</Keyword>
+            <Keyword MajorTopicYN="N">Nanopore sequencing</Keyword>
+            <Keyword MajorTopicYN="N">next-generation sequencing (NGS)</Keyword>
+            <Keyword MajorTopicYN="N">target enrichment</Keyword>
+            <Keyword MajorTopicYN="N">whole-genome sequencing</Keyword>
+        </KeywordList>
+        <CoiStatement>The authors declare no conflict of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31514438</ArticleId>
+            <ArticleId IdType="pii">v11090846</ArticleId>
+            <ArticleId IdType="doi">10.3390/v11090846</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">31500735</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2542</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>236</Volume>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Veterinary microbiology</Title>
+                <ISOAbbreviation>Vet. Microbiol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Homologous recombination shapes the genetic diversity of African swine fever viruses.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>108380</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0378-1135(19)30418-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.vetmic.2019.08.003</ELocationID>
+            <Abstract>
+                <AbstractText>The African swine fever virus (ASFV) has severely influenced the swine industry of the world. Currently, there is no effective vaccine or drugs against the ASFV. How to effectively control the virus is challenging. In this study, we have analyzed all the publicly available ASFV genomes and demonstrated that there was a large genetic diversity of ASFV genomes. Interestingly, the genetic diversity was mainly caused by extensive genomic insertions and/or deletions (indels) instead of the point mutations. Further analyses showed that the indels may be attributed much to the homologous recombination, as supported by significant associations between the occurrence of extensive recombination events and the indels in the ASFV genomes. Besides, the homologous recombination also led to changes of gene content of ASFVs. Finally, repeated elements of dozens of nucleotides in length were observed to widely distribute and cluster in the adjacent positions of ASFV genomes, which may facilitate the occurrence of homologous recombination. This work highlighted the importance of homologous recombination in shaping the genetic diversity of the ASFVs, and could help understand the evolution of the virus.</AbstractText>
+                <CopyrightInformation>Copyright © 2019 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhu</LastName>
+                    <ForeName>Zhaozhong</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiao</LastName>
+                    <ForeName>Chao-Ting</ForeName>
+                    <Initials>CT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fan</LastName>
+                    <ForeName>Yunshi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cai</LastName>
+                    <ForeName>Zena</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Congyu</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Gaihua</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Life Sciences, Hunan Normal University, Changsha, 410081, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jiang</LastName>
+                    <ForeName>Taijiao</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center of System Medicine, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences &amp; Peking Union Medical College, Beijing, China; Suzhou Institute of Systems Medicine, Suzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>Yongjun</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peng</LastName>
+                    <ForeName>Yousong</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Biology, Hunan University, Changsha, China. Electronic address: pys2013@hnu.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Vet Microbiol</MedlineTA>
+            <NlmUniqueID>7705469</NlmUniqueID>
+            <ISSNLinking>0378-1135</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ASFV</Keyword>
+            <Keyword MajorTopicYN="N">Genetic diversity</Keyword>
+            <Keyword MajorTopicYN="N">Homologous recombination</Keyword>
+            <Keyword MajorTopicYN="N">Indel</Keyword>
+            <Keyword MajorTopicYN="N">Repeated element</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>04</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31500735</ArticleId>
+            <ArticleId IdType="pii">S0378-1135(19)30418-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.vetmic.2019.08.003</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31490968</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>How could an African swine fever outbreak evolve in an enzootic context? The case of Imerintsiatosika, Madagascar in 2015.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0221928</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0221928</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever (ASF) is a haemorrhagic contagious pig disease generally causing high mortality. ASF is enzootic in Madagascar with outbreaks reported each year. An ASF outbreak occurred in May 2015 in the municipality of Imerintsiatosika in Madagascar. We investigated the outbreak to describe it and to identify risk factors in order to propose control measures, and to document evidence of an ASF outbreak in an enzootic country. We took biological samples from very sick and dying pigs, sold by the farmer to the butcher, for PCR analysis. An active search for all possible farm-cases was carried out. A definition of suspected farm-case was established and we implemented a descriptive survey and a retrospective cohort study. Laboratory results confirmed ASF virus infection. Suspected farm-cases represented 81 farms out of 922. Out of 3081 pigs of infected farms, 44% (95% CI: 42-46%) were sick, of which 47% were sold or slaughtered. Case fatality was 60% (95% CI: 56-63%) while 21% (95% CI: 19-24%) of the diseased pigs recovered. The outbreak duration was nine months and half of the infected farms' pig population remained after the outbreak. Compared to the exotic breed, local pigs had twice the risk of infection. It is the first detailed report of an ASF outbreak in an enzootic situation. The disease still has a large impact with 50% animals lost. However, the case fatality is lower than expected that suggests the possibility of resistance and subclinical cases. Proximity to road and increased number of farms are risk factors so biosecurity measures are needed. Further studies are needed to understand why pigs of local breed are more affected. Finally, an acceptable alternative to the sale of sick animals should be found as this currently is the breeders' means to reducing economic loss.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rasamoelina Andriamanivo</LastName>
+                    <ForeName>Harentsoaniaina</ForeName>
+                    <Initials>H</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-4418-3358</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Epidemic Intelligence Unit, SEGA One Health Network, Indian Ocean Commission, Ébène, Mauritius.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Randriamananjara</LastName>
+                    <ForeName>Dinaniaina</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département Vétérinaire, Faculté de Médecine d'Antananarivo, Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ralalarison</LastName>
+                    <ForeName>Rijaniaina Ambinintsoa</ForeName>
+                    <Initials>RA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cabinet Vétérinaire, Imerintsiatosika, Arivonimamo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nomenjanahary</LastName>
+                    <ForeName>Lalaina Arivony</ForeName>
+                    <Initials>LA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Virology Unit, Institut Pasteur de Madagascar, Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Razafindraibe</LastName>
+                    <ForeName>Nivohanitra Perle</ForeName>
+                    <Initials>NP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Indian Ocean Field Epidemiology Training Programme, SEGA One Health, Network, Indian Ocean Commission, Ébène, Mauritius.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Direction des Services Vétérinaires, Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Andria-Mananjara</LastName>
+                    <ForeName>Edithe Diana</ForeName>
+                    <Initials>ED</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département de Recherche Zootechnique, Vétérinaire et Piscicole), Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rakotomanana</LastName>
+                    <ForeName>Domoina Oninirina</ForeName>
+                    <Initials>DO</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Département de Recherche Zootechnique, Vétérinaire et Piscicole), Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fenozara</LastName>
+                    <ForeName>Peter Samuel</ForeName>
+                    <Initials>PS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Direction des Services Vétérinaires, Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Biarmann</LastName>
+                    <ForeName>Marcellin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Direction des Services Vétérinaires, Antananarivo, Madagascar.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Halm</LastName>
+                    <ForeName>Ariane</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Epidemic Intelligence Unit, SEGA One Health Network, Indian Ocean Commission, Ébène, Mauritius.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Razafimandimby</LastName>
+                    <ForeName>Harimahefa</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Epidemic Intelligence Unit, SEGA One Health Network, Indian Ocean Commission, Ébène, Mauritius.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Flachet</LastName>
+                    <ForeName>Loïc</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Epidemic Intelligence Unit, SEGA One Health Network, Indian Ocean Commission, Ébène, Mauritius.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cardinale</LastName>
+                    <ForeName>Eric</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Epidemic Intelligence Unit, SEGA One Health Network, Indian Ocean Commission, Ébène, Mauritius.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centre International de Recherche Agronomique pour le Développement, La Réunion, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CoiStatement>The authors have declared that no competing interests exist.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>05</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31490968</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0221928</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-12957</ArticleId>
+            <ArticleId IdType="pmc">PMC6730906</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31483566</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1865-1682</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>04</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Transboundary and emerging diseases</Title>
+                <ISOAbbreviation>Transbound Emerg Dis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Development of a novel quantitative real-time PCR assay with lyophilized powder reagent to detect African swine fever virus in blood samples of domestic pigs in China.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/tbed.13350</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever (ASF) is a devastating disease, which is causing huge economic losses in China. Therefore, it is urgent to provide a rapid, highly specific and sensitive diagnostic method for the detection of African swine fever virus (ASFV), the ASF infectious agent. In this study, a novel quantitative real-time polymerase chain reaction (qPCR) assay with lyophilized powder reagents (LPR), targeting the major structural protein p72 gene, was established for the detection of ASFV. This assay had many advantages, such as saving time and money, good sensitivity and repeatability. The sensitivity of this assay was 100 copies/μl of ASFV plasmid templates, and the assay showed 10-fold greater sensitivity than a qPCR assay recommended by OIE. Furthermore, specificity analysis showed that the qPCR with the LPR for ASFV had no cross-reactivity with other important swine pathogens. In clinical diagnoses of 218 blood samples of domestic pigs in China, the positive rate of the diagnosis of ASFV by qPCR with the LPR and commercial kit reached 80.73% (176/218) and 76.61% (167/218), respectively. The coincidence rate between the two assays is 92.20% (201/218), and kappa value is 0.768 (P &lt; 0.0001) by SPSS analysis. The overall agreement between the two assays was 95.87% (209/218). Further Pearson correlation and linear regression analysis showed a significant correlation between the two assays with an R<sup>2</sup> value of 0.9438. The entire procedure, from specimen processing to result reporting, can be completed within 2 hours. Our results demonstrated the qPCR-LPR assay is a good laboratory diagnostic tool for sensitive and efficient detection of ASFV. This article is protected by copyright. All rights reserved.</AbstractText>
+                <CopyrightInformation>This article is protected by copyright. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Aiping</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jia</LastName>
+                    <ForeName>Rui</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Yunchao</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Henan Zhongze Biological Engineering co. LTD, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Jingming</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qi</LastName>
+                    <ForeName>Yuanming</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Yumei</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Dongmin</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Henan Zhongze Biological Engineering co. LTD, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Jianguo</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Henan Zhongze Biological Engineering co. LTD, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Haining</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Henan Zhongze Biological Engineering co. LTD, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Gaiping</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Life Sciences, Zhengzhou University, Zhengzhou, Henan, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Transbound Emerg Dis</MedlineTA>
+            <NlmUniqueID>101319538</NlmUniqueID>
+            <ISSNLinking>1865-1674</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever virus</Keyword>
+            <Keyword MajorTopicYN="N">laboratory diagnosis</Keyword>
+            <Keyword MajorTopicYN="N">lyophilized powder reagent</Keyword>
+            <Keyword MajorTopicYN="N">real-time PCR</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31483566</ArticleId>
+            <ArticleId IdType="doi">10.1111/tbed.13350</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31461953</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1999-4915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Aug</Month>
+                        <Day>27</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Viruses</Title>
+                <ISOAbbreviation>Viruses</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Crystal Structure of African Swine Fever Virus A179L with the Autophagy Regulator Beclin.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">E789</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3390/v11090789</ELocationID>
+            <Abstract>
+                <AbstractText>Subversion of programmed cell death-based host defence systems is a prominent feature of infections by large DNA viruses. African swine fever virus (ASFV) is a large DNA virus and sole member of the <i>Asfarviridae</i> family that harbours the B-cell lymphoma 2 or Bcl-2 homolog A179L. A179L has been shown to bind to a range of cell death-inducing host proteins, including pro-apoptotic Bcl-2 proteins as well as the autophagy regulator Beclin. Here we report the crystal structure of A179L bound to the Beclin BH3 motif. A179L engages Beclin using the same canonical ligand-binding groove that is utilized to bind to pro-apoptotic Bcl-2 proteins. The mode of binding of Beclin to A179L mirrors that of Beclin binding to human Bcl-2 and Bcl-x<sub>L</sub> as well as murine γ-herpesvirus 68. The introduction of bulky hydrophobic residues into the A179L ligand-binding groove via site-directed mutagenesis ablates binding of Beclin to A179L, leading to a loss of the ability of A179L to modulate autophagosome formation in Vero cells during starvation. Our findings provide a mechanistic understanding for the potent autophagy inhibitory activity of A179L and serve as a platform for more detailed investigations into the role of autophagy during ASFV infection.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Banjara</LastName>
+                    <ForeName>Suresh</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry &amp; Genetics, La Trobe Institute for Molecular Science, La Trobe University, Melbourne, Victoria 3086, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shimmon</LastName>
+                    <ForeName>Gareth L</ForeName>
+                    <Initials>GL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pirbright Institute, Ash Road, Pirbright, Surrey GU24 0NF, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dixon</LastName>
+                    <ForeName>Linda K</ForeName>
+                    <Initials>LK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pirbright Institute, Ash Road, Pirbright, Surrey GU24 0NF, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Netherton</LastName>
+                    <ForeName>Christopher L</ForeName>
+                    <Initials>CL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pirbright Institute, Ash Road, Pirbright, Surrey GU24 0NF, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hinds</LastName>
+                    <ForeName>Mark G</ForeName>
+                    <Initials>MG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Bio21 Molecular Science and Biotechnology Institute, The University of Melbourne, Parkville, Victoria 3050, Australia. hinds.mark.g@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kvansakul</LastName>
+                    <ForeName>Marc</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry &amp; Genetics, La Trobe Institute for Molecular Science, La Trobe University, Melbourne, Victoria 3086, Australia. m.kvansakul@latrobe.edu.au.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>FT130101349</GrantID>
+                    <Agency>Australian Research Council</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007031</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007030</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007031</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007034</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007034</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007035</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007036</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007037</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00007038</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/0000</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>BBS/E/I/00002120</GrantID>
+                    <Acronym>BB_</Acronym>
+                    <Agency>Biotechnology and Biological Sciences Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>Scholarship to SB</GrantID>
+                    <Agency>La Trobe University</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Viruses</MedlineTA>
+            <NlmUniqueID>101509722</NlmUniqueID>
+            <ISSNLinking>1999-4915</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ASFV</Keyword>
+            <Keyword MajorTopicYN="N">Bcl-2</Keyword>
+            <Keyword MajorTopicYN="N">Beclin</Keyword>
+            <Keyword MajorTopicYN="N">X-ray crystallography</Keyword>
+            <Keyword MajorTopicYN="N">autophagy</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31461953</ArticleId>
+            <ArticleId IdType="pii">v11090789</ArticleId>
+            <ArticleId IdType="doi">10.3390/v11090789</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31461446</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Comparative in silico study of congocidine congeners as potential inhibitors of African swine fever virus.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0221175</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0221175</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever virus (ASFV) infection is fatal in domesticated pigs, with a mortality rate approaching 100%. This may result in economic losses and threats to food security. Currently, there are no approved vaccines or antiviral therapies for ASFV. Therefore, in this study, we evaluated congocidine congeners and a tris-benzimidazole as potential inhibitors of ASFV transcription using an in silico approach. We applied redocking of congocidine and docking of its congeners and a tris-benzimidazole to a receptor containing B-DNA with AT-motifs as a target to mimic conserved ASFV late gene promoters. Subsequently, the binding scores of DNA-ligand docked complexes were evaluated and their binding affinity was estimated. Molecular dynamics (MD) simulation was then used to assess ligand behavior within the minor groove. From our results, it is evident the less toxic congocidine congeners and tris-benzimidazole could dock to AT-rich regions significantly. Additionally, the predicted binding affinities had suitable values comparable to other experimentally determined minor groove binders, MD simulation of the docked DNA-ligand complexes and subsequent molecular trajectory visualization further showed that the ligands remained embedded in the minor groove during the time course of simulation, indicating that these ligands may have potential applications in abrogating ASFV transcription.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kinyanyi</LastName>
+                    <ForeName>Dickson</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9147-3847</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Biotechnology, Technical University of Kenya, Nairobi, Kenya.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Amwayi</LastName>
+                    <ForeName>Peris</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Biotechnology, Technical University of Kenya, Nairobi, Kenya.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wamalwa</LastName>
+                    <ForeName>Mark</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Biotechnology, Kenyatta University, Nairobi, Kenya.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Obiero</LastName>
+                    <ForeName>George</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Biotechnology and Bioinformatics, University of Nairobi, Nairobi, Kenya.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CoiStatement>The authors have declared that no competing interests exist.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>03</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31461446</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0221175</ArticleId>
+            <ArticleId IdType="pii">PONE-D-19-06561</ArticleId>
+            <ArticleId IdType="pmc">PMC6713398</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31430503</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7492</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>272</Volume>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Oct</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Virus research</Title>
+                <ISOAbbreviation>Virus Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Lack of evidence for long term carriers of African swine fever virus - a systematic review.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>197725</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0168-1702(19)30233-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.virusres.2019.197725</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever (ASF) was first described in 1921 as a highly fatal and contagious disease which caused severe outbreaks among settlers' pigs in British East Africa. Since then the disease has expanded its geographical distribution and is currently present in large parts of Africa, Europe and Asia and considered a global threat. Although ASF is typically associated with very high case fatality rates, a certain proportion of infected animals will recover from the infection and survive. Early on it was speculated that such survivors may act as carriers of the virus, and the importance of such carries for disease persistence and spread has since then almost become an established truth. However, the scientific basis for such a role of carriers may be questioned. With this in mind, the objective of this study was to review the available literature in a systematic way and to evaluate the available scientific evidence. The selection of publications for the review was based on a database search, followed by a stepwise screening process in order to exclude duplicates and non-relevant publications based on pre-defined exclusion criteria. By this process the number of publications finally included was reduced from the 3664 hits identified in the initial database search to 39 publications, from which data was then extracted and analysed. Based on this it was clear that a definition of an ASF virus carrier is lacking, and that in general any survivor or seropositive animal has been referred to as carrier. It was also clear that evidence of any significant role of such a carrier is absent. Two types of &quot;survivors&quot; could be defined: 1) pigs that do not die but develop a persistent infection, characterised by periodic viraemia and often but not always accompanied by some signs of subacute to chronic disease, and 2) pigs which clear the infection independently of virulence of the virus, and which are not persistently infected and will not present with prolonged virus excretion. There is no evidence that suggests that any of these categories of survivors can be considered as &quot;healthy&quot; carriers, i.e. pigs that show no sign of disease but can transmit the virus to in-contact pigs. However, localized virus persistence in lymphoid tissues may occur to some extent in any of the categories of survivors, which in theory may cause infection after oral uptake. To what extent this is relevant in reality, however, can be questioned given the virus dose generally needed for oral infection.</AbstractText>
+                <CopyrightInformation>Copyright © 2019 The Authors. Published by Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ståhl</LastName>
+                    <ForeName>Karl</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Disease Control and epidemiology, National Veterinary Institute, Uppsala, Sweden. Electronic address: karl.stahl@sva.se.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sternberg-Lewerin</LastName>
+                    <ForeName>Susanna</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Sciences and Veterinary Public Health, Swedish University of Agricultural Sciences, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blome</LastName>
+                    <ForeName>Sandra</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Diagnostic Virology, Friedrich-Loeffler-Institut, Insel Riems, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Viltrop</LastName>
+                    <ForeName>Arvo</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Veterinary Medicine and Animal Sciences, Estonian University of Life Science, Tartu, Estonia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Penrith</LastName>
+                    <ForeName>Mary-Louise</ForeName>
+                    <Initials>ML</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Veterinary Tropical Diseases, University of Pretoria, Onderstepoort, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chenais</LastName>
+                    <ForeName>Erika</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Disease Control and epidemiology, National Veterinary Institute, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Virus Res</MedlineTA>
+            <NlmUniqueID>8410979</NlmUniqueID>
+            <ISSNLinking>0168-1702</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ASF</Keyword>
+            <Keyword MajorTopicYN="N">carrier</Keyword>
+            <Keyword MajorTopicYN="N">chronic</Keyword>
+            <Keyword MajorTopicYN="N">persistent</Keyword>
+            <Keyword MajorTopicYN="N">reservoir</Keyword>
+            <Keyword MajorTopicYN="N">survivor</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>04</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31430503</ArticleId>
+            <ArticleId IdType="pii">S0168-1702(19)30233-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.virusres.2019.197725</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">31417915</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2297-1769</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>6</Volume>
+                    <PubDate>
+                        <Year>2019</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in veterinary science</Title>
+                <ISOAbbreviation>Front Vet Sci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Threat to the French Swine Industry of African Swine Fever: Surveillance, Spread, and Control Perspectives.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>248</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fvets.2019.00248</ELocationID>
+            <Abstract>
+                <AbstractText>African swine fever (ASF) has one of the highest case-fatality rates among pig diseases. Europe was considered ASF-free for about two decades until 2007, when the virus was introduced into Georgia. Since then, it has been identified throughout Eastern Europe, and reached Belgium in late 2018, increasing the risk of ASF being introduced into neighboring countries-namely Germany, Luxembourg, the Netherlands, and France. French authorities have therefore reinforced surveillance measures to improve the probability of detecting ASF rapidly if it emerges in France. Predictive modeling may help to anticipate the extent of virus spread and evaluate the efficiency of these surveillance measures. A previously published and well-documented model that simulates ASF virus spread was therefore tailored to realistically represent the French situation in terms of the geographic distribution of swine production sites and the commercial trade between them on the one hand, and the implementation of surveillance protocols on the other. The outcomes confirmed the moderate spread of ASF through the swine trade network, a situation that had been previously highlighted for the case of Denmark. However, the diversity of the French pig production landscape has revealed a huge potential for the geographic dispersal of the virus, especially should the index case occur in a low-density area, with a median source-to-case distance reaching 300 km. Free-range herds, which are more likely to have interactions with wild boars, were also identified as potential entrance gate for the virus. Transmissions from conventional herds were quasi-exclusively due to swine movement on the commercial network, representing 99% of transmission events. In contrast, 81% of transmission events occurred in the neighborhood of the index herd when the virus was introduced in free-range herds. The current surveillance measures were found relatively efficient for detecting the virus in large herds, leading to detection rates of 94%. However, infections on smaller production sites-which often have free-range herds-were more difficult to detect and would require screening protocols specifically targeting these smaller herds.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Andraud</LastName>
+                    <ForeName>Mathieu</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ploufragan-Plouzané Laboratory, Epidemiology Health and Welfare Department, ANSES, Ploufragan, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Bretagne-Loire University, Rennes, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Halasa</LastName>
+                    <ForeName>Tariq</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Veterinary and Animal Science, University of Copenhagen, Copenhagen, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boklund</LastName>
+                    <ForeName>Anette</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Veterinary and Animal Science, University of Copenhagen, Copenhagen, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rose</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ploufragan-Plouzané Laboratory, Epidemiology Health and Welfare Department, ANSES, Ploufragan, France.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Bretagne-Loire University, Rennes, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Vet Sci</MedlineTA>
+            <NlmUniqueID>101666658</NlmUniqueID>
+            <ISSNLinking>2297-1769</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ASF</Keyword>
+            <Keyword MajorTopicYN="N">epidemiology</Keyword>
+            <Keyword MajorTopicYN="N">modeling</Keyword>
+            <Keyword MajorTopicYN="N">notifiable disease</Keyword>
+            <Keyword MajorTopicYN="N">pig</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31417915</ArticleId>
+            <ArticleId IdType="doi">10.3389/fvets.2019.00248</ArticleId>
+            <ArticleId IdType="pmc">PMC6681701</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31404561</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-2742</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Aug</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of infection</Title>
+                <ISOAbbreviation>J. Infect.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The recombination hot spots and genetic diversity of the genomes of African swine fever viruses.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0163-4453(19)30246-4</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jinf.2019.08.007</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Xiaobing</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xiao</LastName>
+                    <ForeName>Kangpeng</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Zhipeng</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Jinjin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Ruichen</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Xuejuan</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pan</LastName>
+                    <ForeName>Junbin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Irwin</LastName>
+                    <ForeName>David M</ForeName>
+                    <Initials>DM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto M5S 1A8, Canada; Banting and Best Diabetes Centre, University of Toronto, Toronto M5S 1A8, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Rui-Ai</ForeName>
+                    <Initials>RA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China. Electronic address: chensa727@scau.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Yongyi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Veterinary Medicine, South China Agricultural University, Guangzhou 510642, China; Key Laboratory of Zoonosis Prevention and Control of Guangdong Province, Guangzhou 510642, China. Electronic address: shenyy@scau.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016422">Letter</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Infect</MedlineTA>
+            <NlmUniqueID>7908424</NlmUniqueID>
+            <ISSNLinking>0163-4453</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31404561</ArticleId>
+            <ArticleId IdType="pii">S0163-4453(19)30246-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jinf.2019.08.007</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31391480</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2045-2322</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>9</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Aug</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scientific reports</Title>
+                <ISOAbbreviation>Sci Rep</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The potential role of scavengers in spreading African swine fever among wild boar.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>11450</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41598-019-47623-5</ELocationID>
+            <Abstract>
+                <AbstractText>Understanding the transmission patterns of African swine fever (ASF) among wild boar (Sus scrofa) is an issue of major interest, especially in the wake of the current ASF epidemic. Given the high stability of ASF-virus, there is concern about scavengers spreading infectious carcass material in the environment. Here, we describe scavenging activities on 32 wild boar carcasses in their natural habitat in Germany. Using digital cameras, we detected 22 vertebrates at the study sites, thereof two mammal and three bird species scavenging. The most frequently detected species was the raccoon dog Nyctereutes procyonoides (44% of all visits). Raccoon dogs, red foxes (Vulpes vulpes), and buzzards (Buteo buteo) scavenged in the warm and the cold season, while ravens (Corvus corax) and white-tailed eagles (Haliaeetus albicilla) scavenged only in the cold season. In summer, however, insects removed most of the carcass biomass. Although most of the material was consumed on the spot, foxes, raccoon dogs and ravens left the study sites in rare cases with a small piece of meat in their mouths or beaks. We conclude that scavengers represent a minor risk factor for spreading ASF, but may contribute to reducing local virus persistence by metabolizing infected carcasses.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Probst</LastName>
+                    <ForeName>Carolina</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0763-3604</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Institute of Epidemiology, Greifswald-Insel Riems, Germany. carolina.probst@fli.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gethmann</LastName>
+                    <ForeName>Jörn</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Institute of Epidemiology, Greifswald-Insel Riems, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Amler</LastName>
+                    <ForeName>Susanne</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Institute of Epidemiology, Greifswald-Insel Riems, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Globig</LastName>
+                    <ForeName>Anja</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Institute of Epidemiology, Greifswald-Insel Riems, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Knoll</LastName>
+                    <ForeName>Bent</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Universitäts- und Hansestadt Greifswald, Greifswald, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Conraths</LastName>
+                    <ForeName>Franz J</ForeName>
+                    <Initials>FJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7400-9409</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Friedrich-Loeffler-Institut, Federal Research Institute for Animal Health, Institute of Epidemiology, Greifswald-Insel Riems, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Sci Rep</MedlineTA>
+            <NlmUniqueID>101563288</NlmUniqueID>
+            <ISSNLinking>2045-2322</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31391480</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41598-019-47623-5</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41598-019-47623-5</ArticleId>
+            <ArticleId IdType="pmc">PMC6685996</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">31383024</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1746-6148</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Aug</Month>
+                        <Day>05</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC veterinary research</Title>
+                <ISOAbbreviation>BMC Vet. Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Smallholders' perceptions on biosecurity and disease control in relation to African swine fever in an endemically infected area in Northern Uganda.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>279</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12917-019-2005-7</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">In Africa, intensified pig production is frequently accompanied by increased occurrence of African swine fever (ASF) outbreaks, leading to high case fatality rates and socio-economic impact for the farmers. ASF control relies on prevention of disease transmission and control of outbreaks. The aim of this study was to increase the understanding on how the knowledge of ASF epidemiology and control can be transferred into successfully implemented biosecurity interventions on farm and community level. Structured interviews with 200 randomly selected, pig-keeping households in northern Uganda were undertaken three times. Perceptions related to general biosecurity and hypothetical control interventions and attitudes towards pig farming were investigated by measuring the agreement to statements using a Likert scale.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Respondents generally conveyed positivism towards pig farming, biosecurity, and the potential of biosecurity for preventing ASF outbreaks. These positive attitudes, as well as the will to invest in biosecurity, were reduced in households that had experienced ASF outbreaks. Among the control interventions change of boots before entering the pig stable was highly accepted and seasonal adaptation of pig rearing times accepted on medium level. Statements on preventive sales of healthy pigs in connection with outbreaks and on buying pork products from slaughter operations receiving ASF-contact pigs received low acceptance, increasing, however, for households that had experienced ASF outbreaks. Consumption of pork from ASF infected pigs was generally not accepted, medium level of agreement was expressed for statements on the zoonotic potential of ASF and for neutralizing ASF by cooking.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">To gain in-depth understanding of the complexity of people's behaviour, reasoning and decision-making processes, deeper involvement of the social sciences and a qualitative research approach might be used for further studies. Communicating information regarding the ASF not being zoonotic, and how the virus is neutralized will be important for increasing acceptance and enhancing implementation for the hypothetical control interventions preventive sales, safe slaughter, and consumption of processed and safe pork. Likewise, participatory development to adopt any control interventions to the local context on community level will be necessary for successful implementation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chenais</LastName>
+                    <ForeName>Erika</ForeName>
+                    <Initials>E</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-2601-1256</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>National Veterinary Institute, SVA, ESS, S-75189, Uppsala, Sweden. erika.chenais@sva.se.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lewerin</LastName>
+                    <ForeName>Susanna Sternberg</ForeName>
+                    <Initials>SS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Swedish University of Agricultural Sciences, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boqvist</LastName>
+                    <ForeName>Sofia</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Swedish University of Agricultural Sciences, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ståhl</LastName>
+                    <ForeName>Karl</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National Veterinary Institute, SVA, ESS, S-75189, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alike</LastName>
+                    <ForeName>Solomon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Veterinary Sector, Production and Marketing Department, Omoro District Local Government, Gulu, Uganda.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nokorach</LastName>
+                    <ForeName>Bruce</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Veterinary Sector, Production and Marketing Department, Amuru District Local Government, Gulu, Uganda.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Emanuelson</LastName>
+                    <ForeName>Ulf</ForeName>
+                    <Initials>U</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Swedish University of Agricultural Sciences, Uppsala, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>348-2013-146</GrantID>
+                    <Agency>Vetenskapsrådet</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>2017-0152</GrantID>
+                    <Agency>Kungl. Skogs- och Lantbruksakademien</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Vet Res</MedlineTA>
+            <NlmUniqueID>101249759</NlmUniqueID>
+            <ISSNLinking>1746-6148</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Epizootic pig diseases</Keyword>
+            <Keyword MajorTopicYN="N">Implementation</Keyword>
+            <Keyword MajorTopicYN="N">Intervention</Keyword>
+            <Keyword MajorTopicYN="N">Prevention</Keyword>
+            <Keyword MajorTopicYN="N">Smallholders</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>08</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31383024</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12917-019-2005-7</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12917-019-2005-7</ArticleId>
+            <ArticleId IdType="pmc">PMC6683333</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">31371673</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2042-7670</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>185</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Aug</Month>
+                        <Day>03</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Veterinary record</Title>
+                <ISOAbbreviation>Vet. Rec.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Defra taking action to prevent African swine fever in the UK.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>124-125</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1136/vr.l4979</ELocationID>
+            <Abstract>
+                <AbstractText><b>Josh Loeb</b> outlines new government measures to tackle the disease that is steadily making its way through Europe.</AbstractText>
+                <CopyrightInformation>British Veterinary Association.</CopyrightInformation>
+            </Abstract>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Vet Rec</MedlineTA>
+            <NlmUniqueID>0031164</NlmUniqueID>
+            <ISSNLinking>0042-4900</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31371673</ArticleId>
+            <ArticleId IdType="pii">vr.l4979</ArticleId>
+            <ArticleId IdType="doi">10.1136/vr.l4979</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Process" Owner="NLM">
+        <PMID Version="1">31364325</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1976-555X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>20</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of veterinary science</Title>
+                <ISOAbbreviation>J. Vet. Sci.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>How far can African swine fever spread?</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e41</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.4142/jvs.2019.20.e41</ELocationID>
+            <Abstract>
+                <AbstractText>African Swine Fever (ASF) is a highly contagious and deadly viral disease affecting both domestic pig and wild boar populations. Once introduced, it is a terrible disease that can devastate the swine industry in many countries. ASF has spread most recently beyond China to Southeast Asia, and parts of the Korean Peninsula. The majority of Asian countries consume pork as the primary source of meat compared to all other meat products. Particular emphasis is on the spread of ASF within North Korea and on future perspectives including protective guidelines. Thus far, the Korean peninsula has endured an extensive history of diseases, most notably from foot and mouth disease. For this reason, the Korean swine industries are familiar with the detrimental impacts of such a disease. On the other hand, exposure to a disease like ASF will decimate the swine industry even further. Therefore, it is crucial to bring urgent awareness to the spread of ASF.</AbstractText>
+                <CopyrightInformation>© 2019 The Korean Society of Veterinary Science.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sur</LastName>
+                    <ForeName>Jung Hyang</ForeName>
+                    <Initials>JH</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0003-4496-7582</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Veterinary Pathology, College of Veterinary Medicine, Konkuk University, Seoul 02059, Korea. jsur@konkuk.ac.kr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Korea (South)</Country>
+            <MedlineTA>J Vet Sci</MedlineTA>
+            <NlmUniqueID>100964185</NlmUniqueID>
+            <ISSNLinking>1229-845X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">African swine fever</Keyword>
+            <Keyword MajorTopicYN="N">epidemiology</Keyword>
+        </KeywordList>
+        <CoiStatement>The author declares no conflicts of interest.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>06</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>06</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31364325</ArticleId>
+            <ArticleId IdType="pii">20.e41</ArticleId>
+            <ArticleId IdType="doi">10.4142/jvs.2019.20.e41</ArticleId>
+            <ArticleId IdType="pmc">PMC6669206</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

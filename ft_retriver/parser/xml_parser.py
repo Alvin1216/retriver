@@ -118,10 +118,12 @@ def count_character(input_string):
 
 
 def count_words(input_string):
-    words = Counter(input_string.split())
-    wordcount = sum(words.values())
-    # print(wordcount)
-    return wordcount
+    input_string = re.sub("[^A-Za-z]", " ", input_string.strip())
+    wordset = Counter(input_string.split())
+    wordcount = sum(wordset.values())
+    print(wordset)
+    #print(wordcount)
+    return wordset,wordcount
 
 
 def located_keyword(keyword, searched_string):
@@ -138,11 +140,11 @@ def located_keyword(keyword, searched_string):
         return True, located
 
 
-def count_sentence(artical):
+def count_sentence2(artical):
     # with model in nltk
     return len(sent_tokenize(artical))
 
-def count_sentence2(artical):
+def count_sentence(artical):
     # with model in nltk
     regex=r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))'
     #pattern = re.compile(r'([A-Z][a-z].*?[.:!?](?=$| [A-Z]))')

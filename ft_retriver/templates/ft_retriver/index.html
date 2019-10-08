@@ -1,0 +1,29 @@
+{% extends 'ft_retriver/base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<section class="engine"><a href="https://mobirise.info/h">create your own web page for free</a></section>
+
+<section class="header10 cid-rEcKPcnTKt mbr-fullscreen mbr-parallax-background" id="header10-o">
+    <div class="container">
+        <div class="media-container-column mbr-white p-5 align-left col-lg-8 col-md-10">
+            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">UPLOAD FILE!</h1>
+            <p class="mbr-text pb-3 mbr-fonts-style display-5">Please upload your pubmed xml/twitter json
+                file~</p>
+            <form enctype="multipart/form-data" action="../uploadfile/" method="POST">
+                {% csrf_token %}
+                <input type="file" name="myfile"/>
+                <button type="submit" class="btn btn-md btn-primary display-4">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+{% endblock %}

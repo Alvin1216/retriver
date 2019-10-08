@@ -1,0 +1,381 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v4.10.15, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="../commom_static/assets/images/logo2.png" type="image/x-icon">
+    <meta name="description" content="">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="../commom_static/assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="../commom_static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../commom_static/assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../commom_static/assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../commom_static/assets/tether/tether.min.css">
+    <link rel="stylesheet" href="../commom_static/assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="../commom_static/assets/theme/css/style.css">
+    <link rel="preload" as="style" href="../commom_static/assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="../commom_static/assets/mobirise/css/mbr-additional.css" type="text/css">
+
+
+</head>
+<body>
+<section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4"
+                                                     href="../hello">RETRIVER</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="../hello">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="../hello">
+                        <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Upload File
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="../hello">
+                        <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Upload File
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</section>
+<section class="mbr-section content5 cid-rE83tuXctg mbr-parallax-background" id="content5-8">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">SEARCH RESULT</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    歡迎來到分隔模式
+                </h3>
+                <div class="align-center" style="font-family:Microsoft JhengHei; color:white;">
+                    在 {{file_name}} 中搜尋的多個關鍵字 {{ keyword }}的結果
+                </div>
+                <div class="align-center" style="font-family:Microsoft JhengHei; color:white;">
+                    文章標題相同率 : {{sr}} %
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features9 cid-rEcKMqWWKr" id="features9-m">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_b.0.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_b.0.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_b.0.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_b.0.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.0.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.0.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.0.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_b.0.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_a.0.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_a.0.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_a.0.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_a.0.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.0.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.0.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.0.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_a.0.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_b.1.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_b.1.content}} {% endautoescape %}</p>
+                         <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_b.1.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_b.1.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.1.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.1.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.1.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_b.1.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_a.1.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_a.1.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_a.1.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_a.1.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.1.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.1.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.1.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_a.1.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_b.2.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_b.2.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_b.2.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_b.2.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.2.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.2.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.2.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_b.2.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_a.2.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_a.2.content}} {% endautoescape %}</p>
+                       <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_a.2.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_a.2.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.2.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.2.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.2.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_a.2.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_b.3.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_b.3.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_b.3.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_b.3.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.3.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.3.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.3.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_b.3.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_a.3.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_a.3.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_a.3.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_a.3.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.3.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.3.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.3.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_a.3.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_b.4.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_b.4.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_b.4.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_b.4.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.4.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.4.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_b.4.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_b.4.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-6">
+                <div class="media-container-row">
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-7">
+                            <b>{% autoescape off %} {{articalset_a.4.title}} {% endautoescape %}</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <!--<h5 class="card-title">Special title treatment</h5>-->
+                        <p>{% autoescape off %} {{articalset_a.4.content}} {% endautoescape %}</p>
+                        <div class="alert alert-success" role="alert" style="color:black;">
+                            <h4 class="alert-heading">-關於這篇文章的詳細資訊-</h4>
+                            <hr>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>這篇標題中有 <span style="color:red;">{{articalset_a.4.keyword_title_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要中有 <span style="color:red;">{{articalset_a.4.keyword_content_hit}} </span>個關鍵字</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.4.character_content}}</span> 個字元</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.4.word_content}}</span> 個詞</li>
+                                <li>這篇摘要有 <span style="color:red;">{{articalset_a.4.sentence_content}} </span>個句子</li>
+                                <li>{{articalset_a.4.wordset}}</li>
+                            </ol>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section once="footers" class="cid-rE83s1k64Y" id="footer6-6">
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                    © Copyright 2019 Alvin - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="../commom_static/assets/web/assets/jquery/jquery.min.js"></script>
+<script src="../commom_static/assets/popper/popper.min.js"></script>
+<script src="../commom_static/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../commom_static/assets/tether/tether.min.js"></script>
+<script src="../commom_static/assets/smoothscroll/smooth-scroll.js"></script>
+<script src="../commom_static/assets/dropdown/js/nav-dropdown.js"></script>
+<script src="../commom_static/assets/dropdown/js/navbar-dropdown.js"></script>
+<script src="../commom_static/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="../commom_static/assets/parallax/jarallax.min.js"></script>
+<script src="../commom_static/assets/theme/js/script.js"></script>
+</body>
+</html>

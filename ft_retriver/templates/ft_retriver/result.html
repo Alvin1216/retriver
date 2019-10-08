@@ -75,6 +75,16 @@
             </div>
             {%endif%}
 
+            {% if type == 'xml' %}
+            <div class="alert alert-primary" role="alert">
+                <span>&#128073;</span> 這篇摘要有 <span style="color:red;">{{as.wordset}} </span>個句子
+            </div>
+            {% else %}
+            <div class="alert alert-success" role="alert">
+                <span>&#128073;</span> 這篇推文有 <span style="color:red;">{{as.wordset}} </span>個句子
+            </div>
+            {%endif%}
+
         </div>
     </div>
     {% endfor %}

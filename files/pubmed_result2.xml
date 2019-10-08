@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31560972</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1096-1208</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Microbial pathogenesis</Title>
+                <ISOAbbreviation>Microb. Pathog.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mycophenolic acid (MPA) modulates host cellular autophagy progression in sub genomic dengue virus-2 replicon cells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>103762</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0882-4010(19)30756-9</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.micpath.2019.103762</ELocationID>
+            <Abstract>
+                <AbstractText>Cellular autophagy (Macrophagy) is a self-degradative process, executed through the network of autophagy associated genes (ATGs) encoded proteins. Both in vitro and in vivo studies suggest that dengue virus (DENV) induces autophagy and supports the viral genome replication and translation. Therefore, the cellular autophagy induced by dengue virus can be a good target for antiviral drug development. The action of mycophenolic acid (MPA), a specific inhibitor of DENV replication, was investigated in the stable BHK-21/DENV2 replicon cells. The inhibition was mediated by enhanced degradation of autophagic substrates in stable BHK-21/DENV2 replicon cells as evidenced by a decrease in lapidated LC3 (LC3II) and p62 expression in the presence of MPA. In contrast, the results indicated that four gene sets, namely Trans membrane protein 74 (TMEM74), Unc-51-like kinase 2 (ULK2), Cathepsin D (CTSD) and Estrogen receptor 1 (ESR1) were upregulated in stable BHK-21/DENV2 replicon cells, due to the sustained dynamic replication of DENV2 genome. These ATGs involved in the pre-autophagosomal structure (PAS) formation, were suppressed in the presence MPA. Instead, MPA induced the expression of different set of autophagy genes such as ATG4, AKT1, APP, ATG16L1, ATG16L2, B2M and HPRT1. An enzyme involved in the nucleotide salvage pathway, HPRT1, was highly expressed in the presence of MPA. The study shows that DENV2 replication is dependent on PAS formation and is inhibited in the presence of MPA by enhancing the degradation of autophagic substrates and suppression of PAS formation. This study provides impetus in designing MPA analogues to effectively inhibit dengue viral replication.</AbstractText>
+                <CopyrightInformation>Copyright © 2019. Published by Elsevier Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Manchala</LastName>
+                    <ForeName>Nageswar Reddy</ForeName>
+                    <Initials>NR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Molecular Biology, School of Biological Sciences, Central University of Kerala, Tejaswini Hills, Periye, 671320, Kerala, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dungdung</LastName>
+                    <ForeName>Ranjeet</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Molecular Biology, School of Biological Sciences, Central University of Kerala, Tejaswini Hills, Periye, 671320, Kerala, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Pankaj</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Experimental Medicine, Sapienza University, 00161, Rome, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Unniyampurath</LastName>
+                    <ForeName>Unnikrishnan</ForeName>
+                    <Initials>U</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Program on Emerging Infectious Diseases, Duke-NUS Medical School, 8 College Road, Singapore, 169857.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pilankatta</LastName>
+                    <ForeName>Rajendra</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Molecular Biology, School of Biological Sciences, Central University of Kerala, Tejaswini Hills, Periye, 671320, Kerala, India. Electronic address: praj74@cukerala.ac.in.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Microb Pathog</MedlineTA>
+            <NlmUniqueID>8606191</NlmUniqueID>
+            <ISSNLinking>0882-4010</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Autophagy</Keyword>
+            <Keyword MajorTopicYN="N">Dengue</Keyword>
+            <Keyword MajorTopicYN="N">LC3 II</Keyword>
+            <Keyword MajorTopicYN="N">MPA</Keyword>
+            <Keyword MajorTopicYN="N">Replication</Keyword>
+            <Keyword MajorTopicYN="N">Replicon</Keyword>
+            <Keyword MajorTopicYN="N">Viruses</Keyword>
+            <Keyword MajorTopicYN="N">p62</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31560972</ArticleId>
+            <ArticleId IdType="pii">S0882-4010(19)30756-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.micpath.2019.103762</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
