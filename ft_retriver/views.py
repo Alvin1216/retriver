@@ -62,7 +62,6 @@ def wheather_important_words(wordsets):
     return c
     #print(a for a in words if a in key)
 
-
 def hello(request):
     #return render(request, "ft_retriver/upload.html", locals())
     return render(request, "ft_retriver/index.html", locals())
@@ -71,14 +70,14 @@ def hello_result(request):
     #return render(request, "ft_retriver/upload.html", locals())
     return render(request, "ft_retriver/result2.html", locals())
 
-
 def upload_file(request):
     if request.method == "POST":
         myFile = request.FILES.get("myfile", None)
         if not myFile:
             return redirect('../hello')
         elif ut.check_xml(myFile.name):
-            destination = open(os.path.join(".\\files", myFile.name), 'wb+')
+            #print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            destination = open(os.path.join("./files", myFile.name), 'wb+')
             for chunk in myFile.chunks():
                 destination.write(chunk)
             destination.close()
@@ -120,7 +119,8 @@ def xml_deal(request):
     file_name = request.POST['file_name']
     statusParse=request.POST['statusParse']
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(BASE_DIR, "files/" + file_name)
+    print(BASE_DIR)
+    path = os.path.join(BASE_DIR, "./files/" + file_name)
     upload_file_type = 'xml'
     cheacker = request.POST['keyword'].find(',')
     if cheacker != -1:
@@ -167,14 +167,11 @@ def xml_deal(request):
                     artical['id'] = 'id_' + str(i)
 
                     artical['common'] = wheather_important_words(artical['wordset'])
+                    artical['zipf_picture'] = ps.generate_zipf_picture(artical['wordset'],title[i][0:10])
 
                     artical_set.append(artical)
             hit = len(artical_set)
             return render(request, "ft_retriver/result3.html", locals())
-
-
-
-
 
 def json_deal(request):
     file_name = request.POST['file_name']
@@ -272,3 +269,4 @@ def getCompare(request):
                 artical_setA.append(artical)
         hitA = len(artical_setA)
         return render(request, "ft_retriver/result3.html", locals())
+

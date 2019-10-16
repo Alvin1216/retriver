@@ -117,3 +117,8 @@ STATIC_URL = '/commom_static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "commom_static"),
 )
+
+MEDIA_URL = '/pictures/'
+MEDIA_DIRS = (
+    os.path.join(BASE_DIR, 'pictures'),
+)

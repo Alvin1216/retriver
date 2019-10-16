@@ -17,6 +17,8 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 import xml.etree.cElementTree as ET
 from collections import Counter
+import matplotlib.pyplot as plt
+import matplotlib as mpl
 
 
 # nltk.download('punkt')
@@ -125,6 +127,37 @@ def count_words(input_string):
     #print(wordcount)
     return wordset,wordcount
 
+
+def generate_zipf_picture(wordset, filename):
+    worset_sort = wordset.most_common()
+    x = []
+    y = []
+    for i in range(0, len(worset_sort)):
+        x.append(worset_sort[i][0])
+        y.append(worset_sort[i][1])
+
+    mpl.rcParams['lines.linewidth'] = 3
+    mpl.rcParams['lines.color'] = 'green'
+    mpl.rcParams['figure.figsize'] = (12, 3.5)
+    mpl.rcParams['svg.fonttype'] = 'none'
+    plt.gcf().set_size_inches(12, 5)
+
+    # plt.plot(x, y)
+    if (len(x) > 40):
+        display_limit = 40
+    else:
+        display_limit = len(x)
+
+    plt.plot(x[0:display_limit], y[0:display_limit])
+    plt.xticks(x[0:display_limit], rotation=90)
+    plt.title('zipf distribution in this article')
+    plt.xlabel("words")
+    plt.ylabel("frequency")
+    plt.savefig('./pictures/'+ filename + '.svg')
+    plt.clf()
+    plt.close()
+    #return '../commom_static/pictures/'+ filename + '.svg'
+    return '../pictures/picture.jpg'
 
 def located_keyword(keyword, searched_string):
     keyword = keyword.lower()

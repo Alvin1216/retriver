@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31562846</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-6254</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Sep</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Acta tropica</Title>
+                <ISOAbbreviation>Acta Trop.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Serological tests reveal significant cross-reactive human antibody responses to Zika and Dengue viruses in the Mexican population.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>105201</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0001-706X(19)30971-4</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.actatropica.2019.105201</ELocationID>
+            <Abstract>
+                <AbstractText>Zika virus (ZIKV) is a mosquito-borne flavivirus that has caused recent large outbreaks in the Americas. Given its association with severe congenital defects including microcephaly, distinguishing infections caused by ZIKV from those caused by dengue virus (DENV) is of primordial importance. The objectives of this study were to evaluate the recombinant proteins rEIII-ZIKV (Envelope protein domain III) and rNS1ß-leader-ZIKV (non-structural protein 1) for the serological diagnosis of ZIKV in the Mexican population. We also evaluated potential cross-reactivity in commercial enzyme-linked immunosorbent assays (ELISA) based on the ZIKV NS1 and DENV NS1 proteins. rEIII-ZIKV and rNS1ß-leader-ZIKV proteins were tested with sera from 30 PCR-confirmed ZIKV cases, 50 ZIKV-naïve, DENV-exposed subjects with no acute febrile disease, (asymptomatic subjects, AS), and 50 ZIKV-naive and DENV naïve AS. Commercial ELISA tests were evaluated with sera from 57 ZIKV and 20 DENV PCR-confirmed cases, and 50 ZIKV-naïve, DENV-exposed AS. In-house ELISA assays showed that IgM antibody levels against rEIII-ZIKV and rNS1ß-ZIKV were higher in ZIKV naïve, DENV-exposed AS than in acutely infected ZIKV individuals. IgG reactivity was highest for rEIII-ZIKV, and indistinguishable between acutely infected ZIKV cases and DENV exposed AS. Positivity for the Euroimmun Zika IgM assay at 7-10 days was considerably higher in DENV-naïve ZIKV patients (86%) than in DENV-exposed ZIKV patients (33%), while 39% of the latter had false-negative anti-ZIKV IgG before 7 days of onset. DENV-exposed ZIKV patients presented lower anti-ZIKV IgM and higher IgG responses similar to a secondary dengue response. Forty-four percent of DENV- exposed acute ZIKV patients were DENV IgM positive with the Panbio Dengue assay, and two (15%) of the DENV-naïve ZIKV patients presented false DENV IgG conversion. Given the extensive cross-reactivity to both the NS1 and EDIII proteins in current serological methods, the development of sensitive and specific serological tests to distinguish ZIKV from DENV infections is an urgent priority.</AbstractText>
+                <CopyrightInformation>Copyright © 2019. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zaidi</LastName>
+                    <ForeName>Mussaret Bano</ForeName>
+                    <Initials>MB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Infectious Diseases Research Unit, Hospital General O'Horan, Merida, Mexico; Department of Epidemiology and Biostatistics, Michigan State University, Lansing, USA. Electronic address: zaidimus@msu.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cedillo-Barron</LastName>
+                    <ForeName>Leticia</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biomedicine, CINVESTAV-IPN, Mexico City, Mexico. Electronic address: lcedillo@cinvestav.mx.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>González Y Almeida</LastName>
+                    <ForeName>María Elena</ForeName>
+                    <Initials>ME</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Infectious Diseases Research Unit, Hospital General O'Horan, Merida, Mexico. Electronic address: maria.gonzalez@ssy.gob.mx.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Garcia-Cordero</LastName>
+                    <ForeName>Julio</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biomedicine, CINVESTAV-IPN, Mexico City, Mexico. Electronic address: leebeydengue@yahoo.com.mx.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Campos</LastName>
+                    <ForeName>Freddy D</ForeName>
+                    <Initials>FD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Infectious Diseases Research Unit, Hospital General O'Horan, Merida, Mexico. Electronic address: fcampos26@hotmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Namorado-Tonix</LastName>
+                    <ForeName>Karime</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biomedicine, CINVESTAV-IPN, Mexico City, Mexico. Electronic address: namorado93@hotmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Perez</LastName>
+                    <ForeName>Freddy</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Communicable Diseases and Environmental Determinants of Health Department, Panamerican Health Organization, Washington D.C. USA. Electronic address: perezf@paho.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Acta Trop</MedlineTA>
+            <NlmUniqueID>0370374</NlmUniqueID>
+            <ISSNLinking>0001-706X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cross-reactivity</Keyword>
+            <Keyword MajorTopicYN="N">EDIII protein</Keyword>
+            <Keyword MajorTopicYN="N">Enzyme-linked immunosorbent assay</Keyword>
+            <Keyword MajorTopicYN="N">NS1 protein</Keyword>
+            <Keyword MajorTopicYN="N">Sensitivity</Keyword>
+            <Keyword MajorTopicYN="N">Specificity</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>08</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31562846</ArticleId>
+            <ArticleId IdType="pii">S0001-706X(19)30971-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.actatropica.2019.105201</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
