@@ -128,7 +128,7 @@ def count_words(input_string):
     return wordset,wordcount
 
 
-def generate_zipf_picture(wordset, filename):
+def zipf_picture_data(wordset,length = 30):
     worset_sort = wordset.most_common()
     x = []
     y = []
@@ -136,28 +136,35 @@ def generate_zipf_picture(wordset, filename):
         x.append(worset_sort[i][0])
         y.append(worset_sort[i][1])
 
-    mpl.rcParams['lines.linewidth'] = 3
-    mpl.rcParams['lines.color'] = 'green'
-    mpl.rcParams['figure.figsize'] = (12, 3.5)
-    mpl.rcParams['svg.fonttype'] = 'none'
-    plt.gcf().set_size_inches(12, 5)
-
-    # plt.plot(x, y)
-    if (len(x) > 40):
-        display_limit = 40
+    if (len(x) > length):
+        length = 30
     else:
-        display_limit = len(x)
+        length = len(x)
 
-    plt.plot(x[0:display_limit], y[0:display_limit])
-    plt.xticks(x[0:display_limit], rotation=90)
-    plt.title('zipf distribution in this article')
-    plt.xlabel("words")
-    plt.ylabel("frequency")
-    plt.savefig('./pictures/'+ filename + '.svg')
-    plt.clf()
-    plt.close()
+    return x[0:length],y[0:length]
+
+    # mpl.rcParams['lines.linewidth'] = 3
+    # mpl.rcParams['lines.color'] = 'green'
+    # mpl.rcParams['figure.figsize'] = (12, 3.5)
+    # mpl.rcParams['svg.fonttype'] = 'none'
+    # plt.gcf().set_size_inches(12, 5)
+    #
+    # # plt.plot(x, y)
+    # if (len(x) > 40):
+    #     display_limit = 40
+    # else:
+    #     display_limit = len(x)
+    #
+    # plt.plot(x[0:display_limit], y[0:display_limit])
+    # plt.xticks(x[0:display_limit], rotation=90)
+    # plt.title('zipf distribution in this article')
+    # plt.xlabel("words")
+    # plt.ylabel("frequency")
+    # plt.savefig('./pictures/'+ filename + '.svg')
+    # plt.clf()
+    # plt.close()
     #return '../commom_static/pictures/'+ filename + '.svg'
-    return '../pictures/picture.jpg'
+    #return '../pictures/picture.jpg'
 
 def located_keyword(keyword, searched_string):
     keyword = keyword.lower()

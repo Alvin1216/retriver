@@ -167,7 +167,8 @@ def xml_deal(request):
                     artical['id'] = 'id_' + str(i)
 
                     artical['common'] = wheather_important_words(artical['wordset'])
-                    artical['zipf_picture'] = ps.generate_zipf_picture(artical['wordset'],title[i][0:10])
+                    artical['words'],artical['value'] = ps.zipf_picture_data(artical['wordset'])
+                    #artical['display_title'] = 'Zipf distribution of' + title[i]
 
                     artical_set.append(artical)
             hit = len(artical_set)
