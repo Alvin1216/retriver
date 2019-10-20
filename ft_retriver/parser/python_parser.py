@@ -19,6 +19,15 @@ def load_json_from_file(path):
     # print(json_object)
     return json_object
 
+def wordset_by_poter(input_string):
+    ps = PorterStemmer()
+    input_string = re.sub("[^A-Za-z]", " ", input_string.strip())
+    wordlist_before_poter = input_string.split()
+    wordlist_by_poter = []
+    for w in wordlist_before_poter:
+        wordlist_by_poter.append(ps.stem(w))
+    wordset_by_poter_counter = Counter(wordlist_by_poter)
+    return wordset_by_poter_counter
 
 def get_text_from_json_object(json_object):
     content = []
@@ -86,7 +95,20 @@ def count_sentence(artical):
     return len(match)
 
 
+def zipf_picture_data(wordset,length = 30):
+    worset_sort = wordset.most_common()
+    x = []
+    y = []
+    for i in range(0, len(worset_sort)):
+        x.append(worset_sort[i][0])
+        y.append(worset_sort[i][1])
 
+    if (len(x) > length):
+        length = 30
+    else:
+        length = len(x)
+
+    return x[0:length],y[0:length]
 
 def load_from_file():
     path = input("輸入檔案路徑:")

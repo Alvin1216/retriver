@@ -2,6 +2,7 @@ import os, re
 from django.shortcuts import render, redirect
 from ft_retriver.parser import xml_parser as ps
 from ft_retriver.parser import python_parser as js
+from ft_retriver.parser import edit_distance as ed
 from . import utility as ut
 
 def get_artical_set_xml(path,keyword,count):
@@ -66,10 +67,47 @@ def hello(request):
     #return render(request, "ft_retriver/upload.html", locals())
     return render(request, "ft_retriver/index.html", locals())
 
-def hello_result(request):
-    #return render(request, "ft_retriver/upload.html", locals())
-    return render(request, "ft_retriver/result2.html", locals())
+def text_distribution(request):
+    if request.method == "POST":
+        status = 'filein'
+        myFile = request.FILES.get("myfile", None)
+        if not myFile:
+            return redirect('../text_distribution/')
+        elif ut.check_xml(myFile.name):
+            destination = open(os.path.join("./files", myFile.name), 'wb+')
+            for chunk in myFile.chunks():
+                destination.write(chunk)
+            destination.close()
+            status = 'xml'
+            title, content = ps.parse_xml_abstract_title('./files/' + myFile.name)
+            new_dic_x,new_dic_y= ut.make_text_distribution(content)
+            title = myFile.name + " distribution"
+            new_dic_x_p,new_dic_y_p = ut.make_text_distribution_poter(content)
+            title_p = myFile.name + " distribution by poter algorithm"
+            #set = ut.make_text_distribution(content,-1)
+            #print (set)
 
+            return render(request, "ft_retriver/whole.html", locals())
+        elif ut.check_json(myFile.name):
+            destination = open(os.path.join("./files", myFile.name), 'wb+')
+            for chunk in myFile.chunks():
+                destination.write(chunk)
+            destination.close()
+            status = 'json'
+            json_obj = js.load_json_from_file('./files/' + myFile.name)
+            content, user = js.get_text_from_json_object(json_obj)
+            new_dic_x, new_dic_y = ut.make_text_distribution(content)
+            title = myFile.name + " distribution"
+            new_dic_x_p, new_dic_y_p = ut.make_text_distribution_poter(content)
+            title_p = myFile.name + " distribution by poter algorithm"
+
+            return render(request, "ft_retriver/whole.html", locals())
+        else:
+            status = 'error'
+            return render(request, "ft_retriver/whole.html", locals())
+    else:
+        status = 'none'
+        return render(request, "ft_retriver/whole.html", locals())
 def upload_file(request):
     if request.method == "POST":
         myFile = request.FILES.get("myfile", None)
@@ -91,7 +129,7 @@ def upload_file(request):
             #return render(request, "ft_retriver/status.html", locals())
             return render(request, "ft_retriver/result2.html", locals())
         elif ut.check_json(myFile.name):
-            destination = open(os.path.join(".\\files", myFile.name), 'wb+')
+            destination = open(os.path.join("./files", myFile.name), 'wb+')
             for chunk in myFile.chunks():
                 destination.write(chunk)
             destination.close()
@@ -128,9 +166,6 @@ def xml_deal(request):
         keywords = request.POST['keyword'].split(',')
         articalset_b= get_artical_set_xml(path,keywords[0],5)
         articalset_a= get_artical_set_xml(path,keywords[1],5)
-        #print('here!')
-        #print(articalset_a)
-        #print(articalset_b)
         sr = same_rate(articalset_b,articalset_a)
         return render(request, "ft_retriver/result_sep.html", locals())
         #表示有兩個關鍵字，要分兩邊
@@ -144,6 +179,7 @@ def xml_deal(request):
             title = []
             content = []
             title, content = ps.parse_xml_abstract_title(path)
+            ut.make_a_dictionary(content)
             numbers = len(title)
             type = 'xml'
             for i in range(0, numbers):
@@ -165,19 +201,38 @@ def xml_deal(request):
                     artical['content'] = ut.mark_string(content[i], keyword)
 
                     artical['id'] = 'id_' + str(i)
-
+                    artical['wordset_p'] = ps.wordset_by_poter(content[i])
                     artical['common'] = wheather_important_words(artical['wordset'])
                     artical['words'],artical['value'] = ps.zipf_picture_data(artical['wordset'])
-                    #artical['display_title'] = 'Zipf distribution of' + title[i]
+                    artical['words_p'], artical['value_p'] = ps.zipf_picture_data(artical['wordset_p'])
+                    artical['ca_id_xml'] = 'ca_id_xml_' + str(i)
+                    artical['ca_id_xml_p'] = 'ca_id_xml_p_' + str(i)
+
+                    artical['wordset_len'] = len(artical['wordset'])
+                    artical['wordset_p_len'] = len(artical['wordset_p'])
+                    artical['len_id_xml'] = 'len_id_xml'+ str(i)
+
 
                     artical_set.append(artical)
             hit = len(artical_set)
-            return render(request, "ft_retriver/result3.html", locals())
+            #needToFix = 'no!'
+            if(hit != 0):
+                return render(request, "ft_retriver/result3.html", locals())
+            else:
+                hit = 0
+                newkeyword = ed.fix_wrong_input(keyword)
+                url = '../xml/'
+                file_name = file_name
+                statusParse = statusParse
+                return render(request, "ft_retriver/redirect.html", locals())
+
+
+
 
 def json_deal(request):
     file_name = request.POST['file_name']
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(BASE_DIR, "files/" + file_name)
+    path = os.path.join(BASE_DIR, "./files/" + file_name)
     keyword = request.POST['keyword']
     type = 'json'
 
@@ -186,7 +241,6 @@ def json_deal(request):
     else:
         json_obj = js.load_json_from_file(path)
         content,user = js.get_text_from_json_object(json_obj)
-        #print(json_obj)
         artical_set = []
         title = []
         numbers = len(content)
@@ -218,12 +272,29 @@ def json_deal(request):
                 count += 1
 
                 artical['common'] = wheather_important_words(artical['wordset'])
+                artical['words'], artical['value'] = ps.zipf_picture_data(artical['wordset'])
                 #artical['a'] = sperate_tag(content[i])
                 #print(type(content[i]))
+                artical['wordset_p'] = ps.wordset_by_poter(content[i])
+                artical['words_p'], artical['value_p'] = ps.zipf_picture_data(artical['wordset_p'])
+                artical['ca_id_json'] = 'ca_id_json_' + str(i)
+                artical['ca_id_json_p'] = 'ca_id_json_p_' + str(i)
+
+                artical['wordset_len'] = len(artical['wordset'])
+                artical['wordset_p_len'] = len(artical['wordset_p'])
+                artical['len_id_json'] = 'len_id_json' + str(i)
 
                 artical_set.append(artical)
         hit = len(artical_set)
-        return render(request, "ft_retriver/result3.html", locals())
+        if (hit != 0):
+            return render(request, "ft_retriver/result3.html", locals())
+        else:
+            hit = 0
+            newkeyword = ed.fix_wrong_input(keyword)
+            url = '../json/'
+            file_name = file_name
+            #statusParse = statusParse
+            return render(request, "ft_retriver/redirect.html", locals())
 
 def getCompare(request):
     print(request.POST['keyword'])
@@ -232,7 +303,7 @@ def getCompare(request):
     file_name = request.POST['file_name']
     statusParse=request.POST['statusParse']
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(BASE_DIR, "files/" + file_name)
+    path = os.path.join(BASE_DIR, "./files/" + file_name)
     keyword = request.POST['keyword'].spilt(',')
     upload_file_type = 'xml'
     # print(check_file_exist(path))

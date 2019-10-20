@@ -1,0 +1,113 @@
+{% extends 'ft_retriver/base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<section class="engine"><a href="https://mobirise.info/m">site design templates</a></section>
+<section class="mbr-section content5 cid-rE83tuXctg mbr-parallax-background" id="content5-8">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="media-container-column mbr-white p-5 align-center col-lg-8 col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">UPLOAD FILE!</h1>
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">Please upload your file to find their
+                    distribution(json/xml)</p>
+                <form enctype="multipart/form-data" action="../text_distribution/" method="POST">
+                    {% csrf_token %}
+                    <input type="file" name="myfile"/>
+                    <button type="submit" class="btn btn-md btn-primary display-4">Submit</button>
+                </form>
+                {{status}}
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+{% if status != 'none' %}
+<section class="mbr-section article content1 cid-rE83tw0Bwd" id="content2-9">
+    <div class="container" style="font-family:Microsoft JhengHei;">
+        <div>
+            <canvas id="picture" width="400" height="200"></canvas>
+            <script>
+                                    var ctx2 = document.getElementById('picture');
+                                    var myChart2 = new Chart(ctx2, {
+                                        type: 'line',
+                                        data: {
+                                            labels: {{new_dic_x|safe}},
+                                            datasets: [{
+                                                data: {{new_dic_y|safe}},
+                                                backgroundColor: [
+                                                    'rgba(0, 0, 255, 0.5)'
+                                                ],
+                                                borderColor: [
+                                                    'rgba(0, 0, 0, 1)'
+                                                ],
+                                                borderWidth: 1
+                                            }]
+                                        },
+                                        options: {
+                                            scales: {
+                                                yAxes: [{
+                                                    ticks: {
+                                                        beginAtZero: true
+                                                    }
+                                                }],
+                                                xAxes: [{
+                                                    barPercentage: 0.4
+                                                }]
+                                            },
+                                            title: {
+                                                display: true,
+                                                text:'{{title | safe}}'
+                                            }
+                                        }
+                                    });
+
+            </script>
+        </div>
+
+<div>
+            <canvas id="picture2" width="400" height="200"></canvas>
+            <script>
+                                    var ctx2 = document.getElementById('picture2');
+                                    var myChart2 = new Chart(ctx2, {
+                                        type: 'line',
+                                        data: {
+                                            labels: {{new_dic_x_p|safe}},
+                                            datasets: [{
+                                                data: {{new_dic_y_p|safe}},
+                                                backgroundColor: [
+                                                    'rgba(255, 0, 0, 0.5)'
+                                                ],
+                                                borderColor: [
+                                                    'rgba(0, 0, 0, 1)'
+                                                ],
+                                                borderWidth: 1
+                                            }]
+                                        },
+                                        options: {
+                                            scales: {
+                                                yAxes: [{
+                                                    ticks: {
+                                                        beginAtZero: true
+                                                    }
+                                                }],
+                                                xAxes: [{
+                                                    barPercentage: 0.4
+                                                }]
+                                            },
+                                            title: {
+                                                display: true,
+                                                text:'{{title_p | safe}}'
+                                            }
+                                        }
+                                    });
+
+            </script>
+        </div>
+    </div>
+</section>
+{%endif%}
+
+
+{% endblock %}

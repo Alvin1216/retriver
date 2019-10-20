@@ -1,0 +1,32 @@
+{% extends 'ft_retriver/base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<section class="engine"><a href="https://mobirise.info/m">site design templates</a></section>
+<section class="mbr-section content5 cid-rE83tuXctg mbr-parallax-background" id="content5-8">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h5 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    <b>結果中沒有您想要的關鍵字</b> 請問您想找的是{{newkeyword}}嗎？
+                </h5>
+                <form method="POST" action={{url}}>
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input type="hidden" name="file_name" value={{file_name}}>
+                        <input type="hidden" name="statusParse" value="start">
+                        <input type="hidden" name="keyword" value={{newkeyword}}>
+                    </div>
+                    <div align="center">
+                    <button type="submit" class="btn btn-primary">是的</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}
