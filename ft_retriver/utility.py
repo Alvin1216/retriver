@@ -98,7 +98,7 @@ def make_text_distribution_poter(contents,size = 50):
         #input_wordset = Counter(input_string.split())
         new_dic = new_dic + input_wordset
     if(size != -1):
-        new_dic_x, new_dic_y = ps.zipf_picture_data(new_dic, length=size)
+        new_dic_x, new_dic_y = ps.zipf_picture_data(new_dic, size)
         return new_dic_x, new_dic_y
     else:
         return dict(new_dic.most_common())

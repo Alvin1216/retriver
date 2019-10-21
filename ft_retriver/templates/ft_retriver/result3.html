@@ -88,6 +88,8 @@
                                             }
                                         }
                                     });
+
+
                                 </script>
                             </li>
                             <li>
@@ -124,6 +126,8 @@
                                             }
                                         }
                                     });
+
+
                                 </script>
                             </li>
                             <li>
@@ -166,10 +170,41 @@
                                             }
                                         }
                                     });
+
+
                                 </script>
                             </li>
-                            <li>未經過斷詞的字詞set長度：{{as.wordset_len|safe}}</li>
-                            <li>經過斷詞後字詞set長度：{{as.wordset_p_len|safe}}</li>
+                            <li>未經過詞幹提取的字詞set長度：{{as.wordset_len|safe}}</li>
+                            <li>經過詞幹提取後字詞set長度：{{as.wordset_p_len|safe}}</li>
+
+                            <hr>
+
+                            <div style="text-align:center;">
+                                <h5>詳細內容（右半邊 經過詞幹提取/左半邊 未經過詞幹提取)</h5>
+                                <table class="table table-sm">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">original_key</th>
+                                        <th scope="col">original_value</th>
+                                        <th scope="col">stemmed_key</th>
+                                        <th scope="col">stemmed_key_value</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for display in as.display_list %}
+                                    <tr>
+                                        <th scope="row">{{display.row}}</th>
+                                        <td>{{display.key}}</td>
+                                        <td>{{display.value}}</td>
+                                        <td>{{display.key_p}}</td>
+                                        <td>{{display.value_p}}</td>
+                                    </tr>
+                                    {%endfor%}
+                                    </tbody>
+
+                                </table>
+                            </div>
                         </ol>
                     </div>
                     {%endif%}
@@ -226,6 +261,8 @@
                                             }
                                         }
                                     });
+
+
                                 </script>
                             </li>
                             <li>
@@ -262,6 +299,8 @@
                                             }
                                         }
                                     });
+
+
                                 </script>
                             </li>
                             <li>
@@ -303,10 +342,41 @@
                                             }
                                         }
                                     });
+
+
                                 </script>
                             </li>
-                            <li>未經過斷詞的字詞set長度：{{as.wordset_len|safe}}</li>
-                            <li>經過斷詞後字詞set長度：{{as.wordset_p_len|safe}}</li>
+                            <li>未經過stemmed的字詞set長度：{{as.wordset_len|safe}}</li>
+                            <li>經過stemmed後字詞set長度：{{as.wordset_p_len|safe}}</li>
+
+                            <hr>
+
+                            <div style="text-align:center;">
+                                <h5>詳細內容（右半邊 經過詞幹提取/左半邊 未經過詞幹提取)</h5>
+                                <table class="table table-sm">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">original_key</th>
+                                        <th scope="col">original_value</th>
+                                        <th scope="col">stemmed_key</th>
+                                        <th scope="col">stemmed_key_value</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for display in as.display_list %}
+                                    <tr>
+                                        <th scope="row">{{display.row}}</th>
+                                        <td>{{display.key}}</td>
+                                        <td>{{display.value}}</td>
+                                        <td>{{display.key_p}}</td>
+                                        <td>{{display.value_p}}</td>
+                                    </tr>
+                                    {%endfor%}
+                                    </tbody>
+
+                                </table>
+                            </div>
                         </ol>
                     </div>
                     {%endif%}

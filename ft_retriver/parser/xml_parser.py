@@ -150,7 +150,7 @@ def zipf_picture_data(wordset,length = 30):
         y.append(worset_sort[i][1])
 
     if (len(x) > length):
-        length = 30
+        length = length
     else:
         length = len(x)
 

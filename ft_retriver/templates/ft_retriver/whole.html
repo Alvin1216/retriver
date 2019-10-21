@@ -63,10 +63,13 @@
                                         }
                                     });
 
+
+
+
             </script>
         </div>
 
-<div>
+        <div>
             <canvas id="picture2" width="400" height="200"></canvas>
             <script>
                                     var ctx2 = document.getElementById('picture2');
@@ -103,7 +106,36 @@
                                         }
                                     });
 
+
+
+
             </script>
+        </div>
+
+        <div>
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">original_key</th>
+                    <th scope="col">original_value</th>
+                    <th scope="col">stemmed_key</th>
+                    <th scope="col">stemmed_key_value</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for display in display_list %}
+                <tr>
+                    <th scope="row">{{display.row}}</th>
+                    <td>{{display.key}}</td>
+                    <td>{{display.value}}</td>
+                    <td>{{display.key_p}}</td>
+                    <td>{{display.value_p}}</td>
+                </tr>
+                {%endfor%}
+                </tbody>
+
+            </table>
         </div>
     </div>
 </section>
