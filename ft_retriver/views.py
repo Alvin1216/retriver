@@ -1,9 +1,16 @@
-import os, re
+import os,re,nltk
+import numpy as np
 from django.shortcuts import render, redirect
 from ft_retriver.parser import xml_parser as ps
 from ft_retriver.parser import python_parser as js
 from ft_retriver.parser import edit_distance as ed
+from ft_retriver.parser import tf_idf as ti
 from . import utility as ut
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import CountVectorizer
+from nltk.corpus import stopwords
+from collections import Counter
+from scipy import sparse
 
 
 def get_artical_set_xml(path, keyword, count):
@@ -417,3 +424,222 @@ def getCompare(request):
                 artical_setA.append(artical)
         hitA = len(artical_setA)
         return render(request, "ft_retriver/result3.html", locals())
+
+
+def tf_idf_auto(request):
+    if request.method == "POST":
+        status = 'filein'
+        myFile = request.FILES.get("myfile", None)
+        if not myFile :
+            return redirect('../tf_idf/')
+        elif ut.check_xml(myFile.name):
+            destination = open(os.path.join("./files", myFile.name), 'wb+')
+            for chunk in myFile.chunks():
+                destination.write(chunk)
+            destination.close()
+
+            file_name = myFile.name
+            titles, contents = ti.parse_xml_abstract_title('./files/' + myFile.name)
+            artical_set = []
+            title = []
+            content = []
+
+
+
+            print("----Merge Start----")
+            contents = ti.merge_contents_titles(titles, contents)
+            print("----Merge finished----")
+
+            print("----Delete stop words in every artical and remove numbers Start----")
+            contents_clean_wordset = ti.filter_to_clean_wordset(contents)
+            print("----Delete stop words in every artical and remove numbers finished----")
+
+            print("----Count numbers of every artical start----")
+            contents_words_after_count = ti.count_words_in_one_document(contents_clean_wordset)
+            print("----Count numbers of every artical finished----")
+
+
+            #最多算50篇就好
+            if len(titles) > 50:
+                limit = 50
+            else:
+                limit = len(titles)
+
+
+            for i in range(0,limit):
+
+                artical = {}
+                artical['title'] = titles[i]
+                artical['content'] = contents[i]
+                artical['id'] = 'id_' + str(i)
+
+                keyword_set = titles[i] + contents[i]
+                word_list = nltk.word_tokenize(keyword_set)
+                filtered_words = [word.lower() for word in word_list if
+                                  word.lower() not in stopwords.words('english') and word.isalpha()]
+                filtered_words_count = Counter(filtered_words).most_common()
+
+                numbers_of_words_in_this_doc = sum(Counter(filtered_words_count).values())
+                tf_idf_list = []
+                for one_word in filtered_words_count:
+                    keyword = one_word[0]
+                    numbers_of_keyword_in_this_doc = one_word[1]
+                    tf = numbers_of_keyword_in_this_doc / numbers_of_words_in_this_doc
+                    idf = ti.count_idf(keyword, contents_clean_wordset)
+                    tf_idf_with_keyword = (keyword, tf * idf)
+                    tf_idf_list.append(tf_idf_with_keyword)
+
+                sorted_tfidf_importance = []
+                sorted_tfidf_importance = sorted(tf_idf_list, key=lambda tup: tup[1])
+                sorted_tfidf_importance.reverse()
+                pro_keyword = sorted_tfidf_importance[0:5]
+                artical['keyword'] = []
+                for item in pro_keyword:
+                    artical['keyword'].append("<span style=\"color:red;\">[TF-IDF = "+str(round(item[1],5))+" ] </span>"+ item[0])
+
+                artical_set.append(artical)
+            return render(request, "ft_retriver/tf_idf_auto.html", locals())
+        else:
+            status='missing something'
+            return render(request, "ft_retriver/tf_idf_auto.html", locals())
+    else:
+        status = 'none'
+        return render(request, "ft_retriver/tf_idf_auto.html", locals())
+
+def tf_idf(request):
+    if request.method == "POST":
+        status = 'filein'
+        keyword = 'notfound'
+        keyword = request.POST['keyword']
+        version = 'notfound'
+        version = request.POST['tf_idf_version']
+        myFile = request.FILES.get("myfile", None)
+        if not myFile or keyword == 'notfound' or version == 'notfound':
+            return redirect('../tf_idf/')
+        elif ut.check_xml(myFile.name) and keyword != 'notfound' and version != 'notfound':
+            destination = open(os.path.join("./files", myFile.name), 'wb+')
+            for chunk in myFile.chunks():
+                destination.write(chunk)
+            destination.close()
+
+            file_name = myFile.name
+            titles, contents = ti.parse_xml_abstract_title('./files/' + myFile.name)
+            artical_set = []
+            title = []
+            content = []
+            numbers = len(title)
+
+            print(len(titles))
+
+            print("----Merge Start----")
+            contents = ti.merge_contents_titles(titles, contents)
+            print("----Merge finished----")
+
+            print("----Delete stop words in every artical and remove numbers Start----")
+            contents_clean_wordset = ti.filter_to_clean_wordset(contents)
+            print("----Delete stop words in every artical and remove numbers finished----")
+
+            print("----Count numbers of every artical start----")
+            contents_words_after_count = ti.count_words_in_one_document(contents_clean_wordset)
+            print("----Count numbers of every artical finished----")
+
+            idf = ti.count_idf(keyword, contents_clean_wordset)
+
+            if version == "v1":
+                tf_idf_list = []
+                tf_list = []
+                tf_list = ti.count_tf(keyword, contents_words_after_count)
+                for index in range(0, len(tf_list)):
+                    tf_idf = tf_list[index] * idf
+                    tf_idf_with_index = (tf_idf, index)
+                    tf_idf_list.append(tf_idf_with_index)
+                sorted_tf_idf_list = []
+                sorted_tf_idf_list = sorted(tf_idf_list, key=lambda tup: tup[0])
+                sorted_tf_idf_list.reverse()
+            elif version == "v2":
+                tf_idf_list = []
+                tf_list = []
+                tf_list = ti.tf_raw_count(keyword, contents_words_after_count)
+                for index in range(0, len(tf_list)):
+                    tf_idf = ti.tf_logarithm(tf_list[index]) * idf
+                    tf_idf_with_index = (tf_idf, index)
+                    tf_idf_list.append(tf_idf_with_index)
+                sorted_tf_idf_list = []
+                sorted_tf_idf_list = sorted(tf_idf_list, key=lambda tup: tup[0])
+                sorted_tf_idf_list.reverse()
+            elif version == "v3":
+                tf_idf_list = []
+                tf_list = []
+                tf_list = ti.tf_double_k_normalization(keyword, contents_words_after_count, 0.5)
+                for index in range(0, len(tf_list)):
+                    tf_idf = tf_list[index] * idf
+                    tf_idf_with_index = (tf_idf, index)
+                    tf_idf_list.append(tf_idf_with_index)
+                sorted_tf_idf_list = []
+                sorted_tf_idf_list = sorted(tf_idf_list, key=lambda tup: tup[0])
+                sorted_tf_idf_list.reverse()
+
+            #count cosine similarity
+            print("----Cosine Similarity initialize----")
+            corpus = ti.merge_contents_titles(titles, contents)
+            vectorizer = CountVectorizer(min_df=1)
+            X = vectorizer.fit_transform(corpus)
+            feature_name = vectorizer.get_feature_names()
+
+            A = X.toarray()
+            A_sparse = sparse.csr_matrix(A)
+            similarities = cosine_similarity(A_sparse)
+            print("----Cosine Similarity initialize finished----")
+
+
+            for content_index in sorted_tf_idf_list:
+                #print(content_index[0])
+                print(content_index)
+                i = content_index[1]
+                score = content_index[0]
+                print(score)
+                artical = {}
+                artical['status_title'], artical['located_title'] = ps.located_keyword(keyword, titles[i])
+                artical['status_content'], artical['located_content'] = ps.located_keyword(keyword, contents[i])
+
+                if artical['status_title'] == True or artical['status_content'] == True:
+                    # 有重再全算
+                    artical['character_content'] = ps.count_character(contents[i])
+                    artical['wordset'], artical['word_content'] = ps.count_words(contents[i])
+                    artical['sentence_content'] = ps.count_sentence2(contents[i])
+                    artical['title'] = ut.mark_string(titles[i], keyword)
+                    artical['content'] = ut.mark_string(contents[i], keyword)
+
+                    artical['tf_idf'] = content_index[0]
+                    artical['tf_idf_about'] =round(content_index[0], 3)
+
+                    artical['keyword_title_hit'] = len(artical['located_title'])
+                    artical['keyword_content_hit'] = len(artical['located_content'])
+
+                    artical['title'] = ut.mark_string(titles[i], keyword)
+                    artical['content'] = ut.mark_string(contents[i], keyword)
+
+                    artical['id'] = 'id_' + str(i)
+                    artical['wordset_p'] = ps.wordset_by_poter(contents[i])
+                    artical['common'] = wheather_important_words(artical['wordset'])
+                    artical['wordset_len'] = len(artical['wordset'])
+                    artical['wordset_p_len'] = len(artical['wordset_p'])
+
+                    relative_index = list(np.argsort(-similarities[i]))[1:6]
+                    artical['relative_artical'] = []
+                    artical['ra_simlarity'] = []
+
+                    for k in relative_index:
+                        print(k)
+                        ra_string = "[Similarity:"+str(round(similarities[i][k], 3))+"] "+titles[k]
+                        artical['relative_artical'].append(ra_string)
+
+
+                    artical_set.append(artical)
+            return render(request, "ft_retriver/tf_idf.html", locals())
+        else:
+            status='missing something'
+            return render(request, "ft_retriver/tf_idf.html", locals())
+    else:
+        status = 'none'
+        return render(request, "ft_retriver/tf_idf.html", locals())

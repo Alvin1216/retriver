@@ -24,6 +24,8 @@ urlpatterns = [
     path('uploadfile/', ft_retriver_view.upload_file),
     path('xml/', ft_retriver_view.xml_deal),
     path('json/', ft_retriver_view.json_deal),
-    path('text_distribution/',ft_retriver_view.text_distribution)
+    path('text_distribution/',ft_retriver_view.text_distribution),
+    path('tf_idf/',ft_retriver_view.tf_idf),
+    path('tf_idf_automatic/',ft_retriver_view.tf_idf_auto)
 
 ]

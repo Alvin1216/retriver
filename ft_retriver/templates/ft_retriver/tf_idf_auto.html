@@ -1,0 +1,61 @@
+{% extends 'ft_retriver/base2.html'%}
+{% load staticfiles %}
+
+{% block content %}
+
+<section class="engine"><a href="https://mobirise.info/m">site design templates</a></section>
+<section class="mbr-section content5 cid-rE83tuXctg mbr-parallax-background" id="content5-8">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="media-container-column mbr-white p-5 col-lg-8 col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-2">Automatic find keyword!</h1>
+                <p class="mbr-text pb-3 mbr-fonts-style display-4">Please upload pubmed file to use tf-idf to find
+                    keyword automatically</p>
+                <form enctype="multipart/form-data" action="../tf_idf_automatic/" method="POST">
+                    {% csrf_token %}
+                    <input type="file" name="myfile"/>
+                    <button type="submit" class="btn btn-md align-center btn-primary display-4">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+{% if status != 'none' %}
+
+<section class="mbr-section article content1 cid-rE83tw0Bwd" id="content2-9">
+    <div class="container" style="font-family:Microsoft JhengHei;">
+        <div class="align-center"><h4> 利用 TF-IDF 自動抓取每一篇可能的關鍵字 </h4></div>
+        <div class="align-center"><p>   </p> </div>
+        {% for as in artical_set%}
+        <div class="card" style="margin-bottom: 5px;">
+            <div class="card-header">
+                <a data-toggle="collapse" data-target="#collapse-{{ as.id }}"><h5>
+                    <i class="fas fa-chevron-down"></i>
+                    <b>{{as.title}}</b>
+                </h5>
+                </a>
+            </div>
+            <div id="collapse-{{ as.id }}" class="panel-collapse collapse">
+                <div class="card-body">
+                    <!--<h5 class="card-title">Special title treatment</h5>-->
+                    <p>{{as.content}}</p>
+                    <div class="alert alert-primary" role="alert" style="color:black;">
+                        <h4 class="alert-heading">-可能是這篇文章的關鍵字-</h4>
+                        <hr>
+                        <ol style="list-style-type:lower-roman;">
+                            {% for one_keyword in as.keyword%}
+                            <li>{% autoescape off %} {{one_keyword}} {% endautoescape %}</li>
+                            {%endfor%}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endblock %}
